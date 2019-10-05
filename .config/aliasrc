@@ -24,7 +24,25 @@ alias ka="killall" \
 	ref="shortcuts >/dev/null; source ~/.config/shortcutrc" \
 	upc="sudo pacman -Syu; pkill -RTMIN+8 i3blocks" \
 	lsp="pacman -Qett --color=always | less" \
-	ffmpeg="ffmpeg -hide_banner"
+	ffmpeg="ffmpeg -hide_banner" \
+	mkcd='_(){ mkdir -p $1; cd $1; }; _' \
+	gc="git checkout" \
+	gcm="git commit -m" \
+	gs="git status" \
+	gd="git diff --color-words" \
+	gaa="git add -u" \
+	ga="git add" \
+	gca="git checkout -- ." \
+	gp="git push" \
+	gr="git rm" \
+	gb='git for-each-ref --sort=-committerdate refs/heads/ --format="%(authordate:short) %(color:red)%(objectname:short) %(color:yellow)%(refname:short)%(color:reset) (%(color:green)%(committerdate:relative)%(color:reset))"' \
+	gf='git fetch' \
+	gpo="git push origin" \
+	gl="git log" \
+	gm="git merge" \
+	gpl="git pull" \
+	gacm="git add -u && git commit -m" \
+	xo="xdg-open" \
 
 command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d" # Use neovim for vim if present.
 
