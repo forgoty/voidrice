@@ -8,6 +8,3 @@ export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput se
 [ -f "$HOME/.config/aliasrc" ] && source "$HOME/.config/aliasrc"
 
 export LC_ALL="en_US.UTF-8"
-
-# Set Layout switch on alt+shift
-setxkbmap -layout us,ru -option grp:alt_shift_toggle
