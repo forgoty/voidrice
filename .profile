@@ -36,6 +36,8 @@ export LESS_TERMCAP_se="$(printf '%b' '[0m')"
 export LESS_TERMCAP_us="$(printf '%b' '[1;32m')"
 export LESS_TERMCAP_ue="$(printf '%b' '[0m')"
 
+# Set LC_ALL to en_US.utf-8
+export LC_ALL="en_US.UTF-8"
 
 [ ! -f ~/.config/shortcutrc ] && shortcuts >/dev/null 2>&1
 
