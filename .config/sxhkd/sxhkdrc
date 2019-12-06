@@ -18,8 +18,6 @@ super + r
 	$TERMINAL -e $FILE
 super + e
 	$TERMINAL -e neomutt; pkill -RTMIN+12 $STATUSBAR
-super + m
-	$TERMINAL -e ncmpcpp
 super + n
 	$TERMINAL -e newsboat
 super + c
