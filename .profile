@@ -23,6 +23,9 @@ export INPUTRC="$HOME/.config/inputrc"
 export ZDOTDIR="$HOME/.config/zsh"
 export PASSWORD_STORE_DIR="$HOME/.local/share/password-store"
 
+# GOPATH
+export GOPATH="$HOME/projects/go"
+
 # Other program settings:
 export DICS="/usr/share/stardict/dic/"
 export SUDO_ASKPASS="$HOME/.local/bin/dmenupass"

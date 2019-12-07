@@ -59,3 +59,4 @@ alias \
 	gpl="git pull" \
 	gacm="git add -u && git commit -m" \
 	xo="xdg-open" \
+	xclip="xclip -selection clipboard"
