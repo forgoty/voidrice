@@ -10,7 +10,7 @@ export LARBSWM="$(cat ~/.local/share/larbs/wm 2>/dev/null)" &&
 # Default programs:
 export EDITOR="nvim"
 export TERMINAL="st"
-export BROWSER="brave"
+export BROWSER="firefox"
 export READER="zathura"
 export FILE="ranger"
 export STATUSBAR="${LARBSWM}blocks"
