@@ -40,3 +40,4 @@
 st.alpha: 0.85
 *.font: UbuntuMono-15;
 Emacs.font: Hack
+Xft.dpi: 120

@@ -59,4 +59,5 @@ alias \
 	gpl="git pull" \
 	gacm="git add -u && git commit -m" \
 	xo="xdg-open" \
+	history="history 1" \
 	xclip="xclip -selection clipboard"

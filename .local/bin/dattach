@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+# Shortcut to attach docker container to tty
+
+docker attach $(docker ps -a | grep "$1" | awk '{print $1}')

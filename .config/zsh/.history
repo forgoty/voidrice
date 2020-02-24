@@ -1,0 +1,2310 @@
+docker exec -it 0362c22c8821 "python manage.py test apps.tests"
+ls
+cd django-service/xira
+touch apps/tests/__init__.py
+cd ..
+cd ..
+ls
+cd ../
+cd xira-backend
+ls -al
+git clone https://gitlab.leverx-group.com/xira/xira-frontend.git
+cd xira-frontend
+p -S nvm
+npm -V
+ls
+node -V
+node --version
+npm install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash\
+
+ls -al
+npm i
+npm run start
+cd .local/bin
+ls
+touch dattach.sh
+vim dattach.sh
+vim dattach
+ls | grep dat
+ls -al dattach
+ls -al
+chmod 555 dattach
+ls -al
+chmod 755 dattach
+ls -al
+dattach 1
+dattach 1
+dattach 1
+dattach api
+dattach api
+ls
+mv xira2\ \(1\).mp4 xira2.mp4
+cd projects/xira-backend/
+gs
+git stash
+gs
+gpl origin develop
+gd HEAD^
+cd django-service
+grep -rl Bio
+git stash pop
+gs
+gd xira/
+gs
+gl
+gl
+git stash
+gs
+git revert 0c59593688dd2d2d8faab9f52a0499830757a846
+gd
+gs
+gd
+git reset origin/feature/EXIRA01-133
+gs
+gd
+gd xira/config/
+gc xira/config/
+gs
+gd
+git stash pop
+gca
+gs
+git stash pop
+gs
+git restore --staged .
+gs
+gd HEAD
+git restore --staged ../
+gs
+gs
+gs
+git stash
+gpl origin develop
+git stash pop
+git rm xira/apps/migrations/0028_pro_video.py
+gs
+gs
+ga xira/apps/migrations/0028_pro_video.py
+gs
+gd --staged
+Xinput
+xinput
+p -S xorg-input
+p -S xorg-xinput
+xinput list
+xinput disable 11
+gs
+rm xira/apps/migrations/0028_pro_video.py
+gs
+ga xira/apps/migrations/
+gs
+gd --staged xira/apps/migrations/
+gs
+gd requirements.txt
+gc requirements.txt
+gs
+gd xira/api/
+gd xira/api/urls.py
+gc xira/api/urls.py
+gs
+gd xira/api/v1/
+ga xira/api/v1/
+gs
+gd xira/apps/roles/
+ga xira/apps/roles/
+gd
+gd xira/apps/users/views.py
+ga xira/apps/users/views.py
+gs
+gd xira/apps/users/ --staged
+gd --staged xira/apps/users/views.py
+vim requirements.txt
+gs
+git stash
+gs
+gpl origin develop
+git stash pop
+gm --abort
+gs
+gm --abort
+gs
+git stash --abort
+git stash list
+gs
+git restore --staged .
+gs
+ga xira/apps/migrations/
+gs
+git restore --staged ../
+gs
+ga xira/apps/migrations/
+gs
+gd xira/api/v1/users.py
+ga xira/api/v1/users.py
+gs
+gd xira/apps/roles/
+ga xira/apps/roles/
+gd xira/apps/users/views.py
+gs
+gl
+gs
+gs
+python
+p -S htop
+gs
+ga xira/apps/admin/
+gd xira/apps/users/serializers.py
+ga xira/apps/users/serializers.py
+gs
+gd xira/apps/users/
+gd xira/apps/users/
+ga xira/apps/users/
+gs
+vim xira/apps/migrations/0028_pro_introduction_video.py
+gs
+gcm "Add introduction_video endpoint"
+gs
+gd
+git stash
+gs
+gpl origin develop
+gs
+gm --continue
+gl
+gd origin/develop -- xira/apps/users/views.py
+gs
+gs
+gd origin/develop
+gs
+gl
+gs
+gca
+gs
+gd origin/develop
+gs
+gca
+gs
+gd
+gs
+gd
+git reset origin/develop
+gs
+gd
+gd
+gd
+gd
+gs
+ga xira/apps/migrations/
+gs
+gaa
+gs
+gcm "CRUD video in the profile"
+gs
+gpo --force feature/EXIRA01-133
+gd origin/develop
+touch xira/apps/tests/test_pro_introduction_video.py
+cd xira/apps/tests
+ls
+mv test_base.py base.py
+пу�
+gs
+gs
+xinput list
+ls misc/eventstoo-backend
+ls misc
+ls misc/eventstoo-backend/frontend
+ls misc/eventstoo-backend
+ls
+cd misc
+ls
+ls communcrawler
+cd
+ls
+mv xira2.mp4 Downloads
+ls
+D
+rm DANCE\ MONKEY\ -\ STREET\ SAX\ PERFORMANCE.mp4
+ls
+aws s3 ls s3://xira-dev-store/media/videos/users/
+aws s3 presign s3://xira-dev-store/media/videos/users/bigxira2.mp4 --expires-in 604800 | xclip
+aws s3 presign s3://xira-dev-store/media/videos/users/xira2.mp4 --expires-in 604800 | xclip
+cd
+lsblk
+sudo mount /dev/sda1 flash
+ls flash
+ls
+cp -a flash misc/.
+man xrandr
+ls
+cd flash
+ls
+mkdir misc
+cd misc
+mv ../* .
+ls
+cd ..
+ls
+cd 
+sudo umount /dev/sda1
+ls flash
+gs
+gd .profile
+ду�
+ls
+gl
+trans :ru "File size should be not more than 100 Mb."
+xinput list
+cvt 1680 1050 60
+dsh api
+cd projects/xira-backend/django-service
+ls
+cd xira
+cd ../
+gs
+docker ps -a
+cd projects/xira-backend
+ls
+docker-compose up -d
+dattach api
+i3-msg exit
+cfi
+xrandr -q
+cfi
+i3-msg exit
+xrand -q
+xrandr -q
+xrandr --output eDP-1 --mode 1680x1050_60.00
+xrandr --newmode "1680x1050_60.00"  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync
+cvt 1680 1050 60
+xrandr --newmode "1680x1050_60.00"  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync
+xrandr --output eDP-1 --mode 1680x1050
+xrandr --output eDP-1 --mode 1680x1050_59
+cvt 1680 1050 60
+xrandr --newmode "Work" 146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync
+xrandr -q
+xrandr --addmode eDP-1 1680x1050_60.00
+xrandr --output eDP-1 --mode 1680x1050_60.00
+cvt 1600 1200 60
+xrandr --newmode "1600x1200_60.00" 161.00  1600 1712 1880 2160  1200 1203 1207 1245 -hsync +vsync
+xrandr --addmode eDP-1 1600x1200_60.00
+xrandr --output eDP-1 --mode 1600x1200_60.00
+xrandr --output eDP-1 --mode 1680x1050_60.00
+xrandr --newmode "1280x1024_60.00" 109.00  1280 1368 1496 1712  1024 1027 1034 1063 -hsync +vsync
+xrandr --addmode eDP-1 1280x1024_60.00
+xrandr --output eDP-1 --mode 1280x1024_60.00
+xrandr --output eDP-1 --mode 1920x1080
+xrandr -q
+xrandr --output eDP-1 --mode 1680x1050
+xrandr --output eDP-1 --mode 1680x1050_60.00
+xrandr --output eDP-1 --mode 1920x1080_60.00
+xrandr --output eDP-1 --mode 1920x1080
+xrandr --dpi 220 --output eDP-1
+xrandr --dpi 220
+xrandr --output eDP-1 --mode 1600x1200_60.00
+xrandr --output eDP-1 --mode 1440x900_60.00
+xrandr --newmode "1600x900_60.00"  118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync
+xrandr --addmode 1600x900_60.00
+xrandr --addmode eDP-1 1600x900_60.00
+xrandr --output eDP-1 --mode 1600x900_60.00
+cfi
+cvt 1280 1024 60
+cvt 1600 900 60
+cfi
+i3-msg exit
+xrandr --newmode "1600x900_60.00" 118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync
+cvt 1600 900 60
+xrandr --newmode "1600x900_60.00" 118.25 1600 1696 1856 2112 900 903 908 934 -hsync +vsync
+xrandr -q
+xrandr --addmode eDP-1 1600x900_60.00
+xrandr --output eDP-1 --mode 1600x900_60.00
+cfi
+i3-msg exit
+xrandr -q
+xrandr --output eDP-1 --mode 1600x900_60.00
+xrandr --addmode eDP-1 1600x900_60.00
+xrandr --output eDP-1 --mode 1600x900_60.00
+cfi
+i3-msg exit
+xrandr --addmode eDP-1 1600x900_60.00
+xrandr --output eDP-1 --mode 1600x900_60.00
+cfi
+i3-msg exit
+xrandr --dpi 220
+xrandr --dpi 300
+xrandr --dpi 190
+xrandr --dpi 120
+vim .Xresources
+i3-msg exit
+ls
+trans :ru clearify
+trans :ru cleanify
+trans ru:en проу�сниту�
+dsh xira-db-service
+cd misc
+ls
+ls
+cd ../
+ls
+ls flash
+ls projects
+cd misc
+ls
+trans :ru test_introduction_video_update_when_pro_hasnt_got_a_video
+trans :ru "test introduction video update when pro hasnt got a video"
+cd projects/xira-backend/xira-frontend
+npm i
+history | grep npm
+npm run start
+gs
+gpl origin dev
+gs
+git stash
+gm --continue
+gpl origin dev
+git pull
+npm run start
+npm i
+npm run start
+cd projects/xira-backend/xira-frontend
+git stash pop
+gd
+dsh api
+dsh api
+dsh xira
+dsh xira
+dsh api
+dsh api
+dsh xira-api-service
+dsh api
+dsh api
+dsh xira-api-service
+cvt 1280 1024 60
+cd projects/xira-backend
+gs
+gs
+gd
+gd
+gs
+gacm "change ValidationError to XiraValidationError"
+gpo feature/EXIRA01-133
+gpl origin develop
+gs
+gc develop
+gpl origin develop
+gc -b feature/EXIRA01-317
+gs
+gl
+git commit --allow-empty "Initial Commit"
+git commit --allow-empty -m "Initial Commit"
+gs
+gpo feature/EXIRA01-317
+p -S postman
+yay -S postman
+gs
+gb
+gc feature/EXIRA01-133
+gs
+ls -al
+vim .gitlab-ci.yml
+ls
+cd django-service
+ls
+cd xira
+ls
+cp ~/fixture.json .
+ls
+ls
+docker ps -a
+ls
+docker cp fixture.json ad7039ad4824:/xira/fixture.json
+ls
+gs
+gpl origin develop
+cd apps/migrations
+grep -rl "photo/users"
+grep -rl "photo"
+vim 0010_user_photo.py
+vim 0010_merge_20200122_0956.py
+vim 0011_auto_20200122_1357.py
+dsh postgres
+dsh db
+dsh xira-db-service
+gs
+pwd
+vim fix
+ls
+cd ../../
+ls
+vim fixture.json
+vim apps/migrations/0028_auto_20200211_0722.py
+vim apps/migrations/0029_auto_20200211_1219.py
+dsh db-service
+
+dsh db-service
+vim fixture.json
+docker cp fixture.json xira-api-service:/xira/fix.json
+vim fixture.json
+dsh api
+cd projects/xira-backend
+ls -al
+vim .git
+vim .gitlab-ci.yml
+vim docker-compose.yml
+vim docker-compose.yml
+vim .env
+gs
+git rm django-service/xira/apps/migrations/0028_pro_introduction_video.py
+gs
+ga django-service/xira/apps/migrations/0029_pro_introduction_video.py
+gs
+gs
+gaa
+gs
+gs
+vim django-service/xira/apps/migrations/0029_pro_introduction_video.py
+gs
+gd
+git rm django-service/xira/apps/migrations/0029_pro_introduction_video.py
+gs
+rm django-service/xira/apps/migrations/0029_pro_introduction_video.py
+gs
+gs
+gc django-service/xira/apps/migrations/
+gs
+gd HEAD
+gs
+gcm "fix migration conflict. Add comment to clarify size in bytes"
+gs
+gpo
+gpo feature/EXIRA01-133
+gc develop
+gpl origin develop
+gd HEAD^
+gd HEAD^ django-service/xira/apps/users/views.py
+gs
+gc stage
+gpl origin stage
+gs
+gs
+gd
+gacm "Quick fix user photo storage path"
+gl
+gl
+git reset 501a78e8db31c9
+gs
+git stash
+gs
+gc -b "hotfix/user-photo-path-fix"
+git stash pop
+gs
+gacm "user photo path fix"
+gpo hotfix/user-photo-path-fix
+пу�
+gs
+gc feature/EXIRA01-133
+gs
+gl
+gb
+gc hotfix/user-photo-path-fix
+gs
+gs
+gd
+gd
+gacm "add slash"
+gpo htofix/user-photo-path-fix
+gpo hotfix/user-photo-path-fix
+gc feature/EXIRA01-133
+gs
+gd
+gs
+git rm django-service/xira/apps/migrations/0029_pro_introduction_video.py
+rm django-service/xira/apps/migrations/0030_auto_20200211_1217.py
+gs
+gs
+ga django-service/xira/apps/migrations/
+gs
+gd
+gaa
+gs
+gcm "another fix\
+"
+gs
+vim .env
+gs
+vim django-service/xira/apps/migrations/0030_auto_20200211_1228.py
+rm django-service/xira/apps/migrations/0030_auto_20200211_1228.py
+gs
+ga django-service/xira/apps/migrations/
+gs
+chown nikita django-service/xira/apps/migrations/0030_s3_photo_path_data_migration.py
+sudo chown nikita django-service/xira/apps/migrations/0030_s3_photo_path_data_migration.py
+gs
+gs
+gs
+gaa
+gs
+git restore --staged django-service/xira/config
+gs
+git restore --staged django-service/xira/apps/migrations
+gs
+gd
+git stash
+gs
+gpl origin develop
+gs
+gpl origin develop
+ls
+ls django-service/xira/apps/migrations
+gs
+ga django-service/xira/apps/migrations/
+gs
+gs
+gd origin/develop
+gd orgign/stage django-service/xira/apps/users/models.py
+gd orgign/stage -- django-service/xira/apps/users/models.py
+gd origin/stage -- django-service/xira/apps/users/models.py
+git fetch
+gd origin/stage -- django-service/xira/apps/users/models.py
+gs
+gaa
+gd
+gs
+gcm "add data migration. Fix upload_to field on user photo"
+gs
+gpo feature/EXIRA01-133
+vim django-service/xira/apps/migrations/0031_auto_20200211_1451.py
+cp django-service/xira/apps/migrations/0030_s3_photo_path_data_migration.py 0030_s3_photo_path_data_migration.py
+git rm django-service/xira/apps/migrations/0029_auto_20200211_1219.py
+gs
+git rm django-service/xira/apps/migrations/0030_s3_photo_path_data_migration.py
+gs
+rm django-service/xira/apps/migrations/0031_auto_20200211_1451.py
+vim django-service/xira/apps/migrations/0029_auto_20200211_1456.py
+gs
+ga django-service/xira/apps/migrations/0029_auto_20200211_1456.py
+gs
+git restore --staged django-service/xira/apps/migrations/0030_s3_photo_path_data_migration.py
+gs
+gca
+gs
+gd HEAD
+gs
+gcm "fix migration user photo field"
+gpo feature/EXIRA01-133
+gs
+gd
+gs
+git rm django-service/xira/apps/migrations/0029_auto_20200211_1456.py django-service/xira/apps/migrations/0030_s3_photo_path_data_migration.py
+gs
+vim 0030_s3_photo_path_data_migration.py
+gs
+rm django-service/xira/apps/migrations/0030_s3_photo_path_data_migration.py
+gs
+cp 0030_s3_photo_path_data_migration.py django-service/xira/apps/migrations/.
+gs
+rm django-service/xira/apps/migrations/0030_s3_photo_path_data_migration.py
+gs
+cp 0030_s3_photo_path_data_migration.py django-service/xira/apps/migrations/.
+gs
+ga django-service/xira/apps/migrations/0029_auto_20200211_1514.py
+gs
+gd HEAD
+cp 0030_s3_photo_path_data_migration.py django-service/xira/apps/migrations/.
+gs
+ga django-service/xira/apps/migrations/0030_s3_photo_path_data_migration.py
+gs
+gd HEAD
+gs
+gaa
+gs
+gcm "fix default value for user photo. Fix datamigration"
+gpo feature/EXIRA01-133
+gs
+gc develop
+gpl origin develop
+gs
+gc feature/EXIRA01-133
+gd origin/develop
+gpl origin/develop
+gs
+gpl origin/develop
+gpl origin develop
+gs
+gc develop
+gs
+gpl origin develop
+rm 0030_s3_photo_path_data_migration.py
+gs
+sdn
+cd projects/xira-backend
+docker-compose up -d
+dattach api
+docker ps -a
+docker-compose restart xira-api-service -d
+docker-compose restart xira-api-service
+dattach api
+docker-compose restart xira-api-service
+dattach api
+docker-compose restart xira-api-service
+vim django-service/xira/config/settings.py
+grep -rl STORAGE
+vim django-service/xira/config/settings.py
+docker-compose pause xira-api-service
+docker-compose stop xira-api-service
+docker-compose up -d
+docker-compose stop xira-api-service
+docker-compose up
+docker-compose down
+docker-compose up -d
+dattach api-service
+cd projects/xira-backend/xira-frontend
+gpl origin dev
+npm i
+npm run start
+cd projects/xira-backend/xira-frontend
+vim package.json
+cd projects/xira-backend/django-service/xira
+ls
+ls
+docker cp xira-api-service:/xira/fix.json .
+ls
+vim fix.json
+docker cp xira-api-service:/xira/qwer.json .
+ls
+vim qwer.json
+vim misc/docker-compose.yml
+cd misc
+ls
+ls nussbaum
+ls
+cd nussbaum/litigatimax
+ls
+cd ../../
+ls
+ls flash
+ls flash/litigatimax/udgenerator
+vim flash/litigatimax/udgenerator/apps/core
+cd flash/litigatimax/udgenerator
+cd apps
+ls
+grep -rl AdminForm
+vim casedb/admin.py
+cd misc/flash/litigatimax/udgenerator/
+ls
+cd apps
+ls
+grep -r edit_url
+grep -r edit_page
+ls
+unzip tests.zip .
+unzip tests.zip 
+ls
+rm tests.zip
+ls
+mv tests projects/pytest_samples
+cd projects/pytest_samples
+ls
+cd test_libs
+ls
+vim tests_users_synchronizer
+vim tests_users_synchronizer
+cd ..
+cd projects/xira-backend
+docker-compose up -d
+dattach api
+docker-compose restart xira-api-service
+dattach api
+docker-compose stop xira-api-service
+docker-compose run xira-api-service
+docker-compose up -d
+dattach api
+dattach api-service
+docker ps -a
+ls
+docker attach 0a999cdd412c
+cd misc
+ls
+vim docker-compose.yml
+vim heroku.Dockerfile
+cd misc
+ls
+ls -al
+sudo chmod * 666
+ls
+cd flash
+ls
+cd ../
+rm -rf communcrawler docker eventstoo-backend nussbaum heroku.Dockerfile
+ls
+mv flash/* .
+ls
+ls flash
+rm flash
+ls
+rmdir flash
+ls
+chmod 666 communcrawler
+ls
+chmor 555 communcrawler
+chmod communcrawler
+chmod 555 communcrawler
+ls
+chmod 555 *
+ls
+ду�
+ls
+cd comm
+cd communcrawler
+ls
+chmod 555 *
+ls
+cd tests
+ls
+vim test_helpers.py
+vim test_crawlers.py
+cd projects/xira-backend
+gs
+gpl origin develop
+ls django-service/xira/apps/migrations
+git status
+gb
+git branch -d hotfix/user-photo-path-fix
+git branch -D hotfix/user-photo-path-fix
+git branch -d feature/EXIRA01-133
+gs
+git branch -D feature/EXIRA01-133
+gb
+gd feature/EXIRA01-317
+git branch -D feature/EXIRA01-317
+gs
+gb
+gc -b feature/EXIRA01-383
+ls
+cd ../
+ls
+cd xira-backend
+cd django-service
+ls
+cd ../
+ls
+cd django-service
+ls
+ls xira
+cd xira
+ls
+vim qwer.json
+docker cp qwer.json xira-api-service:/xira/
+vim ../../docker-compose.yml
+vim ../../docker-compose.yml
+ls
+touch apps/admin/widgets.py
+touch apps/admin/forms.py
+gs
+cd ../../
+vim .gitignore
+gs
+gc .gitignore django-service/
+cp docker-compose.yml compose-dev.yml
+gca
+gs
+gs
+gs
+rm django-service/xira/apps/admin/forms.py django-service/xira/apps/admin/widgets.py
+gs
+vim compose-dev.yml
+gs
+gc develop
+gs
+gpl origin develop
+gs
+gc feature/EXIRA01-317
+gs
+cd django-service/xira/
+ls
+gs
+vim fixture.json
+docker cp fixture.json xira-api-service:/xira
+vim fixture.json
+docker cp fixture.json xira-api-service:/xira
+vim fix.json
+ls
+ls apps/migrations
+cd
+cd projects/xira-backend
+ls
+gpl origin develop
+gs
+ls
+docker cp xira-api-service:/xira/xira_apps_fixture.json .
+ls
+vim xira_apps_fixture.json
+mv xira_apps_fixture.json xira_apps_fixture_12022020.json
+ls
+cd django-service/xira
+ls
+rm fix*
+rm qwer.json
+ls
+touch pytest.ini
+vim pytest.ini
+ls
+vim pytest.ini
+cd ../
+ls
+touch requirements_dev.py
+vim requirements_dev.py
+docker cp pytest.ini xira-api-service:/xira
+ls
+cd xira
+ls
+docker cp pytest.ini xira-api-service:/xira
+docker cp pytest.ini xira-api-service:/xira
+gs
+gd
+cd ~/projects
+ls
+mkdir xira
+mv xira-backend xira/.
+mv xira/xira-backend/xira-frontend xira/.
+cd xira
+ls
+cd xira-backend
+ls
+vim compose-dev.yml
+ls
+ls django-service
+cd django-service
+vim wait-for.sh
+ls
+vim Dockerfile
+ls
+cp Dockerfile Dev.Dockerfile
+gs
+vim compo
+ls
+vim Dev.Dockerfile
+vim requirements_dev.py
+vim ../compose-dev.yml
+ls
+cd xira
+ls
+cd ../
+ls
+cd ../
+ls
+cp xira_apps_fixture_12022020.json django-service/xira/.
+docker-compose down
+docker ps -a
+docker ps
+docker ps
+ls
+docker-compose --help
+docker-compose -f compose-dev.yml up -d
+docker-compose -f compose-dev.yml down
+docker-compose ps
+docker-compose ps -a
+docker-compose -f compose-dev.yml up -d --no-deps --build xira-api-service
+vim django-service/
+ls
+ls django-service/xira
+ls django-service
+mv django-service/requirements_dev.py django-service/requirements_dev.txt
+docker-compose -f compose-dev.yml up -d --no-deps --buildcompose
+ls
+docker-compose -f compose-dev.yml up -d --no-deps --build xira-api-service
+docker ps -a
+docker-compose restart xira-api-service
+docker ps -a
+docker rm bb96
+docker ps -a
+docker-compose -f compose-dev.yml up -d
+mkdir django-service/xira/apps/tests/test_users
+touch django-service/xira/apps/tests/test_users/test_pros_list.py
+mv django-service/xira/apps/tests/test_pro_introduction_video.py django-service/xira/apps/tests/test_users/.
+ls
+ls django-service/xira
+vim django-service/xira/pytest.ini
+vim django-service/xira/pytest.ini
+touch django-service/xira/apps/tests/__init__.py
+vim compose-dev.yml
+vim django-service/requirements_dev.txt
+ls
+gs
+gd 
+gca
+gd
+gs
+gpl origin develop
+cd projects/xira-backend/xira-frontend
+gpl origin dev
+git stash
+gpl origin dev
+gpl origin dev
+npm i
+npm run start
+git stash pop
+gd
+gd
+gca
+vim package.json
+npm run start
+vim package.json
+npm run start
+xinput enable 11
+xinput disable 11
+dsh api
+dsh api
+docker ps -a
+docker rm fb379dda8728
+dsh api
+dsh api
+dsh api
+dsh api
+dsh api
+sdn
+trans :ru nested
+ls
+git clone https://github.com/LukeSmithxyz/wallpapers.git
+ls
+vim short_pro_example.json
+vim short_pro_example.json
+cd misc/
+ls
+cd badger-docrouter
+vim requirements.txt
+grep -rl django_filter
+grep -rl django_filters
+ls
+cd ../
+ls
+cd litigatimax/
+ls
+vim requirements.txt
+dattach api
+dattach api
+cd misc
+ls
+cd badger-docrouter
+cd tests
+ls
+cd unit
+ls
+grep -rl "client.get"
+vim badgerapi/test_check_in.py
+vim badgerapi/test_locations.py
+vim ../utils/base_test_case.py
+trans :ru exact
+vim asdf
+trans :ru contingency
+python
+python
+trans :ru suspend
+cd projects/xira/xira-backend
+gs
+python
+touch django-service/xira/apps/tests/conftest.py
+ls
+vim django-service/xira/pytest.ini
+vim django-service/xira/pytest.ini
+vim compose-dev.yml
+ls
+ls django-service
+vim compose-dev.yml
+docker-compose -f compose-dev.yml restart
+docker-compose -f compose-dev.yml down
+docker-compose -f compose-dev.yml up -d
+ls
+ls django-service
+vim compose-dev.yml
+ls 
+ls django-service
+vim compose-dev.yml
+vim docker-compose.yml
+docker-compose -f compose-dev.yml up -d
+ls
+vim compose-dev.yml
+docker-compose -f compose-dev.yml upcompose
+docker-compose -f compose-dev.yml up -d
+vim compose-dev.yml
+docker-compose -f compose-dev.yml up -d
+vim compose-dev.yml
+docker-compose -f compose-dev.yml up -d
+docker-compose -f compose-dev.yml down
+vim compose-dev.yml
+vim compose-dev.yml
+docker-compose -f compose-dev.yml up -d
+vim django-service/Dev.Dockerfile
+docker-compose -f compose-dev.yml down
+docker-compose -f compose-dev.yml up -d --build
+vim django-service/Dev.Dockerfile
+docker-compose -f compose-dev.yml down
+docker rm $(docker ps -aq)
+docker-compose -f compose-dev.yml up -d --build
+vim compose-dev.yml
+docker-compose down
+docker-compose -f compose-dev.yml up -d --build
+vim compose-dev.yml
+docker-compose up -d
+vim compose-dev.yml
+docker-compose -f compose-dev.yml down
+docker-compose -f compose-dev.yml up -d
+vim compose-dev.yml
+docker-compose -f compose-dev.yml up -d
+vim compose-dev.yml
+docker-compose -f compose-dev.yml up -d
+vim compose-dev.yml
+vim compose-dev.yml
+docker-compose down
+docker-compose -f compose-dev.yml up -d
+vim compose-dev.yml
+docker-compose -f compose-dev.yml down
+docker-compose -f compose-dev.yml up -d
+vim compose-dev.yml
+docker-compose up -d
+vim django-service/Dev.Dockerfile
+docker-compose -f compose-dev.yml down
+docker-compose -f compose-dev.yml up -d --build
+docker-compose -f compose-dev.yml down
+vim django-service/Dev.Dockerfile
+vim compose-dev.yml
+docker-compose build xira-api-service
+docker ps -a
+docker images
+vim docker-compose.yml
+vim compose-dev.yml
+docker-compose -f compose-dev.yml up -d
+docker-compose -f compose-dev.yml down
+vim compose-dev.yml
+docker-compose up -d --build
+docker-compose down
+docker-compose -f compose-dev.yml up -d
+vim compose-dev.yml
+docker-compose -f compose-dev.yml up -d
+vim compose-dev.yml
+docker-compose -f compose-dev.yml up -d
+docker-compose -f compose-dev.yml up -d --build
+vim compose-dev.yml
+vim django-service/Dev.Dockerfile
+ls
+ls django-service
+vim compose-dev.yml
+gs
+gpl origin develop
+ls
+vim django-service/requirements_dev.txt
+gs
+gd
+git diff
+git diff django-service/xira/api/v1/
+ga django-service/xira/api/v1/
+gs
+gd django-service/xira/apps/practice_areas/
+ga django-service/xira/apps/practice_areas/
+gs
+git diff django-service/xira/apps/users/serializers.py
+git diff django-service/xira/apps/users/serializers.py
+gs
+gd
+gs
+gd
+gaa
+gs
+gpl origin develop
+gs
+git merge --abort
+gs
+gd
+gaa
+gs
+gcm "Add endpoint"
+gpl origin develop
+gs
+git merge --abort
+gs
+gl
+git reset 4aadd021abbbc48d7a10cc488c46bf77e6a2db03
+gs
+gc django-service/xira/api/
+gs
+git stash
+gpl origin develop
+git stash pop
+gs
+gd
+git diff
+gl
+git diff origin/develop
+gs
+gaa
+git diff origin/develop
+gs
+gcm "Add endpoint to serch pros"
+gs
+gpo feature/EXIRA01-317
+gs
+gacm "fix extra spaces"
+dsh api
+gs
+gd
+gca
+gs
+gs
+gf
+gc features/EXIRA01-404-Average-price -- django-service/xira/config/settings.py
+gc origin/features/EXIRA01-404-Average-price -- django-service/xira/config/settings.py
+gs
+gd HEAD
+touch django-service/xira/apps/users/filters.py
+trans :ru "average state price"
+trans :ru "average city price"
+gd
+gd HEAD
+gd
+gd origin
+gs
+ls
+vim django-service/requirements_dev.txt
+vim django-service/xira/config/settings.py
+docker cp xira-api-service:/xira/response.json .
+ls
+vim response.json
+gs
+gd django-service/xira/api/v1/
+git restore --staged .
+gs
+gd origin
+gd origin --staged
+docker-compose restart xira-api-service
+gs
+gd
+vim django-service/xira/config/settings.py 
+gs
+gd
+gd django-service/xira/config/
+gs
+gd django-service/xira/api/
+gd
+gs
+gd django-service/xira/apps/
+gs
+gaa
+gs
+git restore --staged .
+gca
+gs
+gs
+gd
+gd origin 
+gd origin/feature/EXIRA01-317
+gca
+gs
+gd
+ga django-service/xira/apps/users/filters.py
+gs
+gd
+gs
+gaa
+gs
+gl
+gcm "add hourly rate filter to Search Pro"
+gpo feature/EXIRA01-317
+пу�
+gs
+gpl origin develop
+vim django-service/xira/apps/practice_areas/filters.py
+vim response.json
+пу�
+gs
+gd
+gs
+gd
+gacm "Add simple filters"
+gpo
+docker-compose ps
+docker-compose restart xira-api-service
+curl -X GET "http://localhost:8000/api/v1/users/search/pro/"
+curl -X GET "http://localhost:8000/api/v1/users/search/pro/?search=Bank"
+curl -X GET "http://localhost:8000/api/v1/users/search/pro/?search=Bank"
+gs
+gd
+git stash
+gpl origin develop
+git merge --continue
+gs
+git stash pop
+gs
+gd
+gs
+gd
+gs
+gd
+gs
+gd
+gd
+gd django-service/xira/config/
+gs
+gd
+gd
+git diff
+gs
+gacm "Add sorting to ShortProSearch"
+gs
+gd
+git stash
+gs
+git stash pop
+dattach api
+man i3lock
+i3lock -e -f -c 1d2021 && sudo -A systemctl suspend
+man i3lock
+sudo -A systemctl suspend
+i3lock && sudo -A systemctl suspend
+i3lock -e -f -c 1d2021 && sudo -A systemctl suspend
+history | grep aws
+history
+history | grep s3
+history | grep aws
+cd misc
+ls
+cd badger-docrouter
+ls
+vim badgermapping/settings_global.py
+cd projects/xira/xira-backend
+gs
+gd
+gca
+gs
+gs
+gca
+gs
+gs
+пу�
+gs
+gd
+gd
+gs
+gd
+gacm "Fix null value ordering"
+gpo
+пу�
+gs
+gd
+gacm "minor style fix"
+gs
+gpl origin develop
+gs
+vim django-service/requirements.txt
+пу�
+gs
+gd
+gacm "remove ratings from prefetch_related cuz unneeded"
+gs
+gpo
+gs
+gc develop
+gpl origin develop
+gs
+cd projects/xira/xira-backend
+gs
+gd
+gd
+git diff
+gs
+gd
+git diff
+gs
+ga django-service/xira/apps/
+gs
+git restore --staged .
+gs
+ga django-service/xira/apps/users/views.py
+gs
+git diff HEAD
+gs
+gcm "Add smart prefetch of UserPracticeArea"
+gs
+gca
+gs
+gpo
+gs
+gd
+gacm "remove unused import"
+gpo
+cfi
+cd
+gs
+gd .config/i3/
+cfi
+cd projects/xira/xira-backend
+gs
+gd
+gs
+git diff
+gacm "Add explicit hourly_rate ordering. Fix name according to naming convention"
+gd HEAD
+gd HEAD^
+git diff HEAD^
+gs
+gpo
+dattach api
+cd projects/xira/xira-backend
+ls
+ls -al
+cat .env
+aws s3 ls xira://users/videos/
+aws s3 ls xira:/users/videos/
+aws s3 ls xira-dev-store:/users/videos/
+aws s3 ls s3://xira-dev-store/users/videos
+aws s3 ls s3://xira-dev-store/users/videos/
+aws s3 ls s3:/xira-dev-store/users/videos/
+aws s3 ls s3://xira-dev-store/users/
+aws s3 ls s3://xira-dev-store/
+aws s3 ls s3://xira-dev-store/media/users/
+aws s3 ls s3://xira-dev-store/media/users/photos/
+aws s3 ls s3://xira-dev-store/media/users/videos/
+aws s3 presign s3://xira-dev-store/media/users/videos/xira2.mp4
+aws s3 presign s3://xira-dev-store/media/users/videos/xira2.mp4 --expired-in 604800 | xclip
+aws s3 presign s3://xira-dev-store/media/users/videos/xira2.mp4 --expires-in 604800 | xclip
+ping vk.com
+trans :ru exclude
+trans :ru throttle
+cd projects/xira/xira-backend
+gs
+gc -b refactoring/add_tests
+gs
+ga django-service/xira/apps/tests/
+gs
+ls
+cd django-service
+ls
+cd xira
+ls
+mv apps/tests .
+ls
+mv tests/factory.py tests/factories.py
+rm tests/base.py
+gs
+rm media -rf
+ls
+gs
+gs
+ls
+vim ../requirements_dev.txt
+ls
+ls tests
+gs
+ga apps/tests/
+gs
+ls
+ga tests/
+gs
+gs
+gl
+gs
+gs
+ga tests/
+gs
+rm tests/nikita@arch.6941:1581579188
+gs
+ga tests/
+gs
+ga pytest.ini
+ga ../requirements_dev.txt
+gs
+gs
+gaa
+gs
+gd HEAD
+gs
+gaa
+gs
+gcm "Initial commit"
+gs
+gc develop
+gpl origin develop
+gc -b "hotfix/fix_is_hidden_param_when_search"
+ls
+cd ../
+ls
+cd ../
+ls
+docker-compose -f compose-dev.yml restart api
+docker ps -a
+docker-compose -f compose-dev.yml restart xira-api-service
+docker-compose -f compose-dev.yml up -d --build
+ls
+cd django-service
+ls
+vim Dev.Dockerfile
+gs
+git stash
+gи
+gb
+gc refactoring/add_tests
+cd ../ && docker-compose -f compose-dev.yml up -d --build
+gs
+gb
+gc hotfix/fix_is_hidden_param_when_search
+gs
+gd origin/develop
+gd origin/develop
+docker-compose -f compose-dev.yml restart api
+docker-compose -f compose-dev.yml restart xira-api-service
+docker ps -a
+vim compose-dev.yml
+docker-compose -f compose-dev.yml restart xira-api-service
+docker ps -a
+vim compose-dev.yml
+docker-compose -f compose-dev.yml restart xira-api-service
+docker ps -a
+docker rm c70a6
+docker-compose -f compose-dev.yml up 
+vim compose-dev.yml
+vim django-service/requirements.txt
+docker ps -a
+docker rm a0a239
+docker images
+docker rmi 52f48a1ce045
+docker images
+docker rmi hello-world
+docker rmi 36a184a1c242
+docker images
+docker rmi 54ee3c4c9be4
+docker rmi 54ee3c4c9be4 --force
+docker images
+docker rmi cf1cd7374853
+docker images
+docker rmi $(docker images -f dangling=true -q)\
+
+docker images
+gs
+gc refactoring/add_tests
+gs
+gpl origin develop
+docker images
+docker rmi edf21ea967f5
+docker-compose -f compose-dev.yml down
+docker rmi edf21ea967f5
+docker ps -a
+docker images
+gpl origin develop
+docker-compose -f compose-dev.yml up -d --build
+gs
+gc hotfix/fix_is_hidden_param_when_search
+docker ps -a
+docker-compose stop xira-api-service
+vim compose-dev.yml
+docker-compose restart xira-api-service
+docker-compose stop xira-api-service
+docker-compose up xira-api-service -d
+docker-compose -f compose-dev.yml up -d
+dattach apoi
+dattach api
+cd projects/xira/xira-backend
+gs
+docker-compose -f compose-dev.yml up -d
+dsh api
+dsh api
+ls django-service
+vim django-service/Dockerfile
+vim docker-compose.yml
+ls django-service
+dsh api
+vim django-service/wait-for.sh
+dsh api
+ls
+vim ~/misc/docker-compose.yml
+docker-compose up -d
+docker-compose down
+docker-compose -f compose-dev.yml up -d
+vim compose-dev.yml
+docker-compose -f compose-dev.yml down
+docker-compose -f compose-dev.yml up -d
+docker-compose -f compose-dev.yml up -d
+dsh api
+ls
+ls django-service
+vim django-service/Doc
+vim django-service/Dockerfile
+docker-compose -f compose-dev.yml down
+docker-compose -f compose-dev.yml up -d
+dsh api
+docker-compose -f compose-dev.yml down
+docker-compose -f compose-dev.yml up -d
+docker-compose -f compose-dev.yml up -d
+dsh api
+dsh api
+dsh api
+dattach api
+dsh api
+dsh api
+dsh api
+dsh api
+dsh api
+dsh api
+dsh api
+cd projects/xira/xira-backend/
+ls
+gs
+gd
+gca
+gs
+gl
+gd
+gd
+gs
+gd
+gacm "Fix filtering"
+gpo
+gpo hotfix/fix_is_hidden_param_when_search
+gs
+gc develop
+gpl origin develop
+gc refactoring/add_tests
+gpl origin develop
+gs
+vim django-service/xira
+cd ../xira-frontend
+gs
+gd
+vim package.json
+i3lock -e -f -c 1d2021 && sudo -A systemctl suspend
+gs
+gpl origin dev
+gca
+gm --continue
+gpl origin dev
+vim package.json
+cd ../xira-backend
+ls
+vim xira_apps_fixture_12022020.json
+du xira_apps_fixture_12022020.json
+vim xira_apps_fixture_12022020.json
+vim xira_apps_fixture_12022020.json
+gs
+gc django-service/xira/apps/
+gs
+gd
+gs
+ga django-service/xira/tests/
+gs
+gcm "another adding"
+gc develop
+gs
+gc -b hotfix/validate_query_params
+gs
+cd ../../xira/xira-frontend
+npm i
+gs
+cd ../xira-backend
+gs
+gd
+gd
+git diff
+gs
+gd
+gs
+gd
+git diff
+gs
+gacm "fix for unvalid query params provided"
+gpo hotfix/validate_query_params
+python
+gs
+gd
+gd
+gacm "minor naming fix" && gpo
+gs
+gl
+gpo
+gpo hotfix/validate_query_params
+gacm "fix"
+gpo hotfix/validate_query_params
+gs
+gs
+gc develop
+gpl origin develop
+пу�
+gs
+gb
+gc refactoring/add_tests
+gs
+пу�
+gs
+gd
+gs
+gs
+gd
+git diff
+gacm "add rating factory"
+gs
+gpo refactoring/add_tests
+sdn
+cd projects/xira/xira-frontend
+gs
+git stash
+gpl origin dev
+npm i
+npm run start
+npm run start
+history | tail
+vim misc/commands/commands.txt
+vim misc/commands/commands.txt
+ls -al
+ls l
+ls
+cd misc
+ls
+cd comm
+cd commands
+ls
+chmod 644 *
+ls
+vim commands.txt
+ls -al
+vim commands.txt
+vim commands.txt
+vim commands.txt
+cat commands.txt
+cd misc/commands
+ls
+touch commands.txt
+ls
+vim commands.txt
+cd ~/.local/share/nvim/
+ls
+ls swap
+ls
+cd
+ls -al
+ranger
+cd ~/.local/share/nvim/
+ls
+ls swap
+rm swap/%home%nikita%misc%commands%commands.txt.swp
+ls
+ls swap
+vim .ssh/id_rsa.pub
+scp aliaksandr.manko@bastion.dev.xiralaw.com:/dumpfile.sql dumpfile.sql
+scp aliaksandr.manko@bastion.dev.xiralaw.com:~/dumpfile.sql dumpfile.sql
+ls
+cd projects/xira/xira-backend
+ls
+docker-compose -f compose-dev.yml up -d
+vim .env
+docker ps -a
+docker stop xira-api-service
+ls
+docker cp ~/dumpfile.sql xira-db-service:/
+ls
+ls -l
+ls
+ls -al
+docker-compose -f compose-dev.yml run xira-api-service
+docker ps -a
+docker-compose -f compose-dev.yml restart xira-api-service
+ls
+rm xira_apps_fixture_12022020.json
+ls
+ls
+cd django-service
+ls
+cd xira
+ls
+vim xira_apps_fixture_19022020.json
+cd ../../
+gs
+gpl origin develop
+curl -X GET http:/localhost:8000/api/v1/users/search/pro
+trans ru:en псевдоним
+trans :ru descending
+cd projects/xira/xira-frontend
+ls
+gs
+gd
+gs
+git stash
+gpl origin dev
+gpl origin dev
+git stash pop
+cd projects/xira/xira-backend
+gs
+gc develop
+gpl origin develop
+gs
+docker ps -a
+docker-compose -f compose-dev.yml restart xira-api-service
+ls
+git diff
+gs
+git stash
+gs
+gs
+gca
+git stash pop
+gs
+python
+gs
+gd
+gs
+gd
+gs
+gd
+gd
+gs
+gs
+git stash
+gc -b hotfix/fix_multiple_pro
+gs
+git stash pop
+gs
+gacm "fix"
+gs
+gc refactoring/add_tests
+gpl hotfix/fix_multiple_rp
+gpl hotfix/fix_multiple_pro
+gs
+gm hotfix/fix_multiple_pro
+gs
+gs
+gpo hotfix/fix_multiple_pro
+vim compose-dev.yml
+vim compose-dev.yml
+gs
+gs
+gs
+gca
+gs
+gc hotfix/fix_multiple_pro
+gs
+gs
+gd
+gs
+git stash
+gs
+gc -b hotfix/fix_ordering_of_pros
+git stash pop
+git diff
+gs
+gd
+gacm "fix average_rating ordering"
+gpo
+gpo hotfix/fix_ordering_of_pros
+gs
+gc develop
+gpl origin develop
+vim .env
+sdn
+ls
+ls .ssh
+ls known_hosts
+ls .ssh/known_hosts
+cp id_rsa.pub .ssh
+ls
+ls .shh
+ls .ssh
+ssh aliaksandr.manko@bastion.xiradev.com
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+vim .ssh/known_hosts
+vim .ssh/
+ssh aliaksandr.manko@bastion.dev.xiralaw.com -v
+ls .ssh
+ssh-add
+touch .ssh/config
+vim .ssh/config
+vim .ssh/config
+chmod 600 ~/.ssh/config
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+chmod 0644 .ssh/id_rsa.pub
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+ssh-add ~/.ssh/id_rsa.pub
+ssh-add -K ~/.ssh/id_rsa.pub
+mv .ssh/config .ssh/config.backup
+ssh-add ~/.ssh/id_rsa.pub
+eval 'ssh-agent -s'
+ssh-add ~/.ssh/id_rsa.pub
+ls
+cp id_rsa .ssh
+eval 'ssh-agent -s'
+ssh-add ~/.ssh/id_rsa.pub
+ssh-add ~/.ssh/id_rsa.pub
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+chmod 0644 .ssh/id_rsa
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+chmod 644 .ssh/id_rsa
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+mv .ssh/config.backup .ssh/config
+vim .ssh/config
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+chmod 400 .ssh/id_rsa
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+dsh db
+dsh db-service
+dsh api
+docker ps -a
+docker rm 06067310483e
+dsh api
+dsh api
+cd projects/xira/xira-frontend
+gpl origin dev
+gca package.json
+gpl origin dev
+npm i
+vim package.json
+npm run start
+npm run start
+cd misc
+ls
+cd badger-docrouter
+ls
+chmod 644 *
+ls
+cd docker
+chmod 666 *
+ls
+vim docker
+ranger
+ls -al
+chmod 644 docker
+ls
+ls -al
+ls docker
+cd docker
+chmod 644 docker
+ls
+cd docker
+vim heroku.
+vim heroku.Dockerfile
+vim docker-compose.yml
+su
+cd docker
+chmod u+rx,go-w docker
+cd docker
+ls
+cd local
+ls
+chmod 644 *
+cd envs
+chmod u+rx,go-w en
+chmod u+rx,go-w envs
+ls
+cd envs
+cd ..
+vim Dockerfile
+vim Dockerfile
+cd ../../
+ls
+ls -al
+dattach api
+dattach api
+p -Suy
+cd projects/xira/xira-frontend
+gs
+git stash
+gpl origin dev
+git stash pop
+cd ../xira-backend
+gs
+gpl origin dev
+gpl origin develop
+vim django-service/xira/uwsgi.ini
+gs
+docker ps -a
+docker-compose -f compose-dev.yml up -d
+reboot
+trans :ru concreate
+trans :ru concrete
+cd projects/xira/xira-backend
+dattach api
+docker-compose restart xira-api-service
+dattach xira-api-service
+dattach xira-api-service
+dattach xira-api-service
+dattach xira-api-service
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+scp aliaksandr.manko@bastion.dev.xiralaw.com:~/asdf.sql dumpfile.sql 
+ls
+sdn
+cd projects/xira/xira-frontend
+git stash pop
+cd projects/xira/xira-frontend
+ls
+gs
+git stash
+gpl origin dev
+npm i
+npm run start
+npm run start
+cd projects/xira/xira-backend
+docker-compose -f compose-dev.yml up -d
+gs
+gc -b hotfix/fix_hourly_rate_with_specific_practice_area
+gs
+gm refactoring/add_tests
+vim django-service/xira/uwsgi.ini
+gs
+gd
+gca
+gs
+gc refactoring/add_tests
+rm django-service/xira/apps/users/.\#views.py
+gs
+gs
+gd
+git stash
+gs
+gs
+gd
+gs
+git stash
+gc hotfix/fix_hourly_rate_with_specific_practice_area
+gs
+gc -b hotfix/empty_practice_areas
+gc develop
+gs
+gc -b hotfix/fix_empty_practice_areas
+git stash pop
+gs
+gcm "first"
+gca
+gs
+gs
+gcm "first"
+git reset origign/develop
+git reset origign/develop .
+git reset --soft origin/develop
+gs
+gca django-service/
+gs
+git restore --staged .
+gs
+git stash
+gs
+gl
+gs
+git reset --hard origin/develop
+gs
+git diff
+gs
+gacm "first" && gpo
+gacm "first" && gpo hotfix/fix_empty_practice_areas
+gl
+gs
+gpo hotfix/fix_empty_practice_areas
+gs
+gd
+gca
+gpl
+gpl hotfix/fix_empty_practice_areas
+gpl origin hotfix/fix_empty_practice_areas
+gs
+gc develop
+gs
+gs
+gc refactoring/add_tests
+gs
+gd
+gs
+gd
+gs
+gacm "asdf"
+gc develop
+gpl origin develop
+docker stop xira-api-service
+docker ps
+ls
+cd
+ls
+ls
+docker cp dumpfile.sql xira-db-service:/.
+cd projects/xira/xira-backend
+gs
+ls django-service/xira
+git reset --soft origin/develop
+rm -r django-service/xira/tests
+vim .env
+vim .env
+vim django-service/xira/config/settings.py
+vim .env
+docker-compose restart xira-api-service
+vim django-service/xira/config/settings.py
+vim .env
+docker-compose restartcompose
+docker-compose -f compose-dev.yml restart xira-api-service
+vim .env
+vim django-service/xira/config/settings.py
+vim .env
+docker-compose -f compose-dev.yml restart
+vim .env
+vim compose-dev.yml
+cat .env| grep GOOGLE
+gs
+gd
+gs
+gd
+gca
+gs
+dsh api
+dsh db
+docker db-service
+dsh db-service
+dsh api
+dsh api
+dsh api
+cd misc
+vim commands/commands.txt
+trans :ru overlap
+trans :ru distinciton
+trans :ru distinction
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+ssh aliaksandr.manko@bastion.stage.xiralaw.com
+vim .ssh/config
+cd .ssh
+ls
+vim config
+ssh aliaksandr.manko@bastion.stage.xiralaw.com
+cd projects/xira/xira-backend
+dattach api
+dattach api
+docker ps -a
+docker-compose restart xira-api-service
+dattach api-
+cd projects/xira/xira-frontend
+git stash
+gpl origin dev
+ls
+git stash pop
+gs
+cd misc
+ls
+cd badger-docrouter
+grep -rli calendar
+chmod 644 *
+grep -rli calendar
+ls -al
+find . -type d -exec chmod 644 {} \;\
+;\
+
+chmod 644 .
+find ./* -type d -exec chmod 644 {} \;
+find . -type d -exec chmod 644 {} \;
+chmod -R 644 *
+chmod -R 644 ./*
+cd ..
+chmod -R 644 badger-docrouter
+chmod -R +xr badger-docrouter
+cd badger-docrouter
+ls
+ls -al
+grep -rli calendar
+vim requirements.txt
+grep -rli notes
+vim customers/models.py
+vim drupe/models.py
+cd misc
+cd litigatimax
+cd udgenerator
+grep -rl calendar
+vim apps/casedb/models.py
+grep -rli calendar
+cd 
+cd projects
+git clone https://github.com/llazzaro/django-scheduler.git
+source /usr/bin/virtualenvwrapper.sh
+mkvirtualenv django-scheduler
+cd django-scheduler
+ls
+cd ..
+git clone https://github.com/llazzaro/django-scheduler-sample.git
+cd django-scheduler-sample
+pip install -r requirements.txt
+export DJANGO_SETTINGS_MODULE=project_sample.settings
+python manage.py bower install
+python manage.py bower_install
+npm install bower
+python manage.py bower install
+ls
+ls node_modules
+./node_modules/bower/bin/bower install
+npm -g bower
+npm install -g bower
+sudo npm install -g bower
+python manage.py bower install
+python manage.py migrate
+python manage.py collectstatic
+python manage.py runserver 9000
+cd Downloads
+mv xira2.mp4 xira2.MP4
+cd projects/xira/xira-frontend
+gs
+git stash
+gpl origin dev
+git stash pop
+npm i
+npm run start
+npm i
+npm run start
+npm run start
+cd projects/django-scheduler-sample
+vim ~/.profile
+vim ~/.xprofile
+source /usr/bin/virtualenvwrapper.sh
+workon django-scheduler
+python manage.py load_sample_data
+ls
+ls project_sample/assets/fullcalendar/
+bower install
+sdn
+cd projects/xira/xira-backend
+docker-compose -f compose-dev.yml up -d
+gs
+gpl origin develop
+gs
+gf
+gc 2-fix-extension-check
+gs
+gd
+gd
+gd
+gacm "fix"
+gpo 2-fix-extension-check
+gc develop
+gc 2-fix-extension-check
+gs
+gs
+gm refactoring/add_tests
+gs
+gd
+git diff django-service/xira/apps/users/
+ga django-service/xira/apps/users/
+gs
+gd
+gcm "adding according to review"
+gpo
+gl
+git rebase -i HEAD-2
+git rebase -i HEAD~2
+gs
+git stash
+gs
+git rebase -i HEAD~2
+gl
+gd origin/develop
+gl
+gd origin/develop
+gpo 2-fix-extension-check
+gs
+gc refactoring/add_tests
+gs
+git stash
+git stash pop
+gd
+gd
+gs
+gd
+gacm "add introduction video test CamelCase extension and content type"
+gd
+gs
+git diff
+gl
+gs
+git diff
+git diff origin/develop
+gpl origin/develop
+gpl origin/develop
+gpl origin develop
+git diff origin/develop
+gpo
+gpo refactoring/add_tests
+ls
+vim django-service/Dockerfile
+gs
+gc develop
+gpl origin develop
+ls
+cd django-service
+ls
+cd xira
+ls
+cp ~/fixture.json .
+ls
+gs
+vim fixture.json
+rm fixture.json
+ls
+ls ~/
+ls ~
+cp ~/Downloads/fixture_stage_apps_21022020.json .
+dsh apo
+dsh api
+dsh api
+man cp
+pkill umount
+sudo !
+sudo pkill umount
+lsblk
+cd misc
+ls
+ls
+cd
+ls
+cd projects
+ls
+mv pytest_samples ../misc
+cd ../misc/pytest_samples
+ls
+vim test_apps
+ls
+vim helpers.py
+vim test_libs
+grep -rl client
+vim test_libs/tests_users_synchronizer/conftest.py
+vim test_libs/tests_users_synchronizer/test_synchronizer.py
+cd projects/xira/xira-frontend
+git stash
+gpl origin dev
+npm i
+cd ../xira-backend
+gs
+gd
+gca
+gpl origin develop
+gc refactoring/add_tests
+gpl origin refactoring/add_tests
+docker-compose -f compose-dev.yml up -d
+gpl origin develop
+gs
+vim django-service/requirements_dev.txt
+gs
+gd
+gd
+gacm "add factories"
+gs
+gpo refactoring/add_tests
+cd
+lsblk
+sudo mount /dev/sda1 flash
+ls
+ls flash
+cp -a projects/xira flash/.
+ls flash/xira
+ls flash/xira/xira-backend
+cd flash/xira/xira-backend
+ls
+gs
+gd
+git reset --soft origin/refactoring/add_tests
+gs
+gca
+gs
+lsblk
+sudo umount /dev/sda1
+ls
+cd 
+sudo umount /dev/sda1
+sdn
+trans :ru revoke
+trans :ru participants
+trans :ru "Inspects calendars to determine the common availablity for people within the specified periods of time"
+ping vk.com
