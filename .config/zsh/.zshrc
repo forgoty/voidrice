@@ -16,8 +16,8 @@ compinit
 _comp_options+=(globdots)
 
 # History
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=10000
+SAVEHIST=10000
 HISTFILE=$ZDOTDIR/.history
 
 # Use vim keys in tab complete menu:
