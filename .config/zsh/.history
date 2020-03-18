@@ -1,0 +1,1049 @@
+ls
+cd ../
+ls
+cd ../
+ls
+docker-compose -f compose-dev.yml restart api
+docker ps -a
+docker-compose -f compose-dev.yml restart xira-api-service
+docker-compose -f compose-dev.yml up -d --build
+ls
+cd django-service
+ls
+vim Dev.Dockerfile
+gs
+git stash
+gи
+gb
+gc refactoring/add_tests
+cd ../ && docker-compose -f compose-dev.yml up -d --build
+gs
+gb
+gc hotfix/fix_is_hidden_param_when_search
+gs
+gd origin/develop
+gd origin/develop
+docker-compose -f compose-dev.yml restart api
+docker-compose -f compose-dev.yml restart xira-api-service
+docker ps -a
+vim compose-dev.yml
+docker-compose -f compose-dev.yml restart xira-api-service
+docker ps -a
+vim compose-dev.yml
+docker-compose -f compose-dev.yml restart xira-api-service
+docker ps -a
+docker rm c70a6
+docker-compose -f compose-dev.yml up 
+vim compose-dev.yml
+vim django-service/requirements.txt
+docker ps -a
+docker rm a0a239
+docker images
+docker rmi 52f48a1ce045
+docker images
+docker rmi hello-world
+docker rmi 36a184a1c242
+docker images
+docker rmi 54ee3c4c9be4
+docker rmi 54ee3c4c9be4 --force
+docker images
+docker rmi cf1cd7374853
+docker images
+docker rmi $(docker images -f dangling=true -q)\
+
+docker images
+gs
+gc refactoring/add_tests
+gs
+gpl origin develop
+docker images
+docker rmi edf21ea967f5
+docker-compose -f compose-dev.yml down
+docker rmi edf21ea967f5
+docker ps -a
+docker images
+gpl origin develop
+docker-compose -f compose-dev.yml up -d --build
+gs
+gc hotfix/fix_is_hidden_param_when_search
+docker ps -a
+docker-compose stop xira-api-service
+vim compose-dev.yml
+docker-compose restart xira-api-service
+docker-compose stop xira-api-service
+docker-compose up xira-api-service -d
+docker-compose -f compose-dev.yml up -d
+dattach apoi
+dattach api
+cd projects/xira/xira-backend
+gs
+docker-compose -f compose-dev.yml up -d
+dsh api
+dsh api
+ls django-service
+vim django-service/Dockerfile
+vim docker-compose.yml
+ls django-service
+dsh api
+vim django-service/wait-for.sh
+dsh api
+ls
+vim ~/misc/docker-compose.yml
+docker-compose up -d
+docker-compose down
+docker-compose -f compose-dev.yml up -d
+vim compose-dev.yml
+docker-compose -f compose-dev.yml down
+docker-compose -f compose-dev.yml up -d
+docker-compose -f compose-dev.yml up -d
+dsh api
+ls
+ls django-service
+vim django-service/Doc
+vim django-service/Dockerfile
+docker-compose -f compose-dev.yml down
+docker-compose -f compose-dev.yml up -d
+dsh api
+docker-compose -f compose-dev.yml down
+docker-compose -f compose-dev.yml up -d
+docker-compose -f compose-dev.yml up -d
+dsh api
+dsh api
+dsh api
+dattach api
+dsh api
+dsh api
+dsh api
+dsh api
+dsh api
+dsh api
+dsh api
+cd projects/xira/xira-backend/
+ls
+gs
+gd
+gca
+gs
+gl
+gd
+gd
+gs
+gd
+gacm "Fix filtering"
+gpo
+gpo hotfix/fix_is_hidden_param_when_search
+gs
+gc develop
+gpl origin develop
+gc refactoring/add_tests
+gpl origin develop
+gs
+vim django-service/xira
+cd ../xira-frontend
+gs
+gd
+vim package.json
+i3lock -e -f -c 1d2021 && sudo -A systemctl suspend
+gs
+gpl origin dev
+gca
+gm --continue
+gpl origin dev
+vim package.json
+cd ../xira-backend
+ls
+vim xira_apps_fixture_12022020.json
+du xira_apps_fixture_12022020.json
+vim xira_apps_fixture_12022020.json
+vim xira_apps_fixture_12022020.json
+gs
+gc django-service/xira/apps/
+gs
+gd
+gs
+ga django-service/xira/tests/
+gs
+gcm "another adding"
+gc develop
+gs
+gc -b hotfix/validate_query_params
+gs
+cd ../../xira/xira-frontend
+npm i
+gs
+cd ../xira-backend
+gs
+gd
+gd
+git diff
+gs
+gd
+gs
+gd
+git diff
+gs
+gacm "fix for unvalid query params provided"
+gpo hotfix/validate_query_params
+python
+gs
+gd
+gd
+gacm "minor naming fix" && gpo
+gs
+gl
+gpo
+gpo hotfix/validate_query_params
+gacm "fix"
+gpo hotfix/validate_query_params
+gs
+gs
+gc develop
+gpl origin develop
+пу�
+gs
+gb
+gc refactoring/add_tests
+gs
+пу�
+gs
+gd
+gs
+gs
+gd
+git diff
+gacm "add rating factory"
+gs
+gpo refactoring/add_tests
+sdn
+cd projects/xira/xira-frontend
+gs
+git stash
+gpl origin dev
+npm i
+npm run start
+npm run start
+history | tail
+vim misc/commands/commands.txt
+vim misc/commands/commands.txt
+ls -al
+ls l
+ls
+cd misc
+ls
+cd comm
+cd commands
+ls
+chmod 644 *
+ls
+vim commands.txt
+ls -al
+vim commands.txt
+vim commands.txt
+vim commands.txt
+cat commands.txt
+cd misc/commands
+ls
+touch commands.txt
+ls
+vim commands.txt
+cd ~/.local/share/nvim/
+ls
+ls swap
+ls
+cd
+ls -al
+ranger
+cd ~/.local/share/nvim/
+ls
+ls swap
+rm swap/%home%nikita%misc%commands%commands.txt.swp
+ls
+ls swap
+vim .ssh/id_rsa.pub
+scp aliaksandr.manko@bastion.dev.xiralaw.com:/dumpfile.sql dumpfile.sql
+scp aliaksandr.manko@bastion.dev.xiralaw.com:~/dumpfile.sql dumpfile.sql
+ls
+cd projects/xira/xira-backend
+ls
+docker-compose -f compose-dev.yml up -d
+vim .env
+docker ps -a
+docker stop xira-api-service
+ls
+docker cp ~/dumpfile.sql xira-db-service:/
+ls
+ls -l
+ls
+ls -al
+docker-compose -f compose-dev.yml run xira-api-service
+docker ps -a
+docker-compose -f compose-dev.yml restart xira-api-service
+ls
+rm xira_apps_fixture_12022020.json
+ls
+ls
+cd django-service
+ls
+cd xira
+ls
+vim xira_apps_fixture_19022020.json
+cd ../../
+gs
+gpl origin develop
+curl -X GET http:/localhost:8000/api/v1/users/search/pro
+trans ru:en псевдоним
+trans :ru descending
+cd projects/xira/xira-frontend
+ls
+gs
+gd
+gs
+git stash
+gpl origin dev
+gpl origin dev
+git stash pop
+cd projects/xira/xira-backend
+gs
+gc develop
+gpl origin develop
+gs
+docker ps -a
+docker-compose -f compose-dev.yml restart xira-api-service
+ls
+git diff
+gs
+git stash
+gs
+gs
+gca
+git stash pop
+gs
+python
+gs
+gd
+gs
+gd
+gs
+gd
+gd
+gs
+gs
+git stash
+gc -b hotfix/fix_multiple_pro
+gs
+git stash pop
+gs
+gacm "fix"
+gs
+gc refactoring/add_tests
+gpl hotfix/fix_multiple_rp
+gpl hotfix/fix_multiple_pro
+gs
+gm hotfix/fix_multiple_pro
+gs
+gs
+gpo hotfix/fix_multiple_pro
+vim compose-dev.yml
+vim compose-dev.yml
+gs
+gs
+gs
+gca
+gs
+gc hotfix/fix_multiple_pro
+gs
+gs
+gd
+gs
+git stash
+gs
+gc -b hotfix/fix_ordering_of_pros
+git stash pop
+git diff
+gs
+gd
+gacm "fix average_rating ordering"
+gpo
+gpo hotfix/fix_ordering_of_pros
+gs
+gc develop
+gpl origin develop
+vim .env
+sdn
+ls
+ls .ssh
+ls known_hosts
+ls .ssh/known_hosts
+cp id_rsa.pub .ssh
+ls
+ls .shh
+ls .ssh
+ssh aliaksandr.manko@bastion.xiradev.com
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+vim .ssh/known_hosts
+vim .ssh/
+ssh aliaksandr.manko@bastion.dev.xiralaw.com -v
+ls .ssh
+ssh-add
+touch .ssh/config
+vim .ssh/config
+vim .ssh/config
+chmod 600 ~/.ssh/config
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+chmod 0644 .ssh/id_rsa.pub
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+ssh-add ~/.ssh/id_rsa.pub
+ssh-add -K ~/.ssh/id_rsa.pub
+mv .ssh/config .ssh/config.backup
+ssh-add ~/.ssh/id_rsa.pub
+eval 'ssh-agent -s'
+ssh-add ~/.ssh/id_rsa.pub
+ls
+cp id_rsa .ssh
+eval 'ssh-agent -s'
+ssh-add ~/.ssh/id_rsa.pub
+ssh-add ~/.ssh/id_rsa.pub
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+chmod 0644 .ssh/id_rsa
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+chmod 644 .ssh/id_rsa
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+mv .ssh/config.backup .ssh/config
+vim .ssh/config
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+chmod 400 .ssh/id_rsa
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+dsh db
+dsh db-service
+dsh api
+docker ps -a
+docker rm 06067310483e
+dsh api
+dsh api
+cd projects/xira/xira-frontend
+gpl origin dev
+gca package.json
+gpl origin dev
+npm i
+vim package.json
+npm run start
+npm run start
+cd misc
+ls
+cd badger-docrouter
+ls
+chmod 644 *
+ls
+cd docker
+chmod 666 *
+ls
+vim docker
+ranger
+ls -al
+chmod 644 docker
+ls
+ls -al
+ls docker
+cd docker
+chmod 644 docker
+ls
+cd docker
+vim heroku.
+vim heroku.Dockerfile
+vim docker-compose.yml
+su
+cd docker
+chmod u+rx,go-w docker
+cd docker
+ls
+cd local
+ls
+chmod 644 *
+cd envs
+chmod u+rx,go-w en
+chmod u+rx,go-w envs
+ls
+cd envs
+cd ..
+vim Dockerfile
+vim Dockerfile
+cd ../../
+ls
+ls -al
+dattach api
+dattach api
+p -Suy
+cd projects/xira/xira-frontend
+gs
+git stash
+gpl origin dev
+git stash pop
+cd ../xira-backend
+gs
+gpl origin dev
+gpl origin develop
+vim django-service/xira/uwsgi.ini
+gs
+docker ps -a
+docker-compose -f compose-dev.yml up -d
+reboot
+trans :ru concreate
+trans :ru concrete
+cd projects/xira/xira-backend
+dattach api
+docker-compose restart xira-api-service
+dattach xira-api-service
+dattach xira-api-service
+dattach xira-api-service
+dattach xira-api-service
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+scp aliaksandr.manko@bastion.dev.xiralaw.com:~/asdf.sql dumpfile.sql 
+ls
+sdn
+cd projects/xira/xira-frontend
+git stash pop
+cd projects/xira/xira-frontend
+ls
+gs
+git stash
+gpl origin dev
+npm i
+npm run start
+npm run start
+cd projects/xira/xira-backend
+docker-compose -f compose-dev.yml up -d
+gs
+gc -b hotfix/fix_hourly_rate_with_specific_practice_area
+gs
+gm refactoring/add_tests
+vim django-service/xira/uwsgi.ini
+gs
+gd
+gca
+gs
+gc refactoring/add_tests
+rm django-service/xira/apps/users/.\#views.py
+gs
+gs
+gd
+git stash
+gs
+gs
+gd
+gs
+git stash
+gc hotfix/fix_hourly_rate_with_specific_practice_area
+gs
+gc -b hotfix/empty_practice_areas
+gc develop
+gs
+gc -b hotfix/fix_empty_practice_areas
+git stash pop
+gs
+gcm "first"
+gca
+gs
+gs
+gcm "first"
+git reset origign/develop
+git reset origign/develop .
+git reset --soft origin/develop
+gs
+gca django-service/
+gs
+git restore --staged .
+gs
+git stash
+gs
+gl
+gs
+git reset --hard origin/develop
+gs
+git diff
+gs
+gacm "first" && gpo
+gacm "first" && gpo hotfix/fix_empty_practice_areas
+gl
+gs
+gpo hotfix/fix_empty_practice_areas
+gs
+gd
+gca
+gpl
+gpl hotfix/fix_empty_practice_areas
+gpl origin hotfix/fix_empty_practice_areas
+gs
+gc develop
+gs
+gs
+gc refactoring/add_tests
+gs
+gd
+gs
+gd
+gs
+gacm "asdf"
+gc develop
+gpl origin develop
+docker stop xira-api-service
+docker ps
+ls
+cd
+ls
+ls
+docker cp dumpfile.sql xira-db-service:/.
+cd projects/xira/xira-backend
+gs
+ls django-service/xira
+git reset --soft origin/develop
+rm -r django-service/xira/tests
+vim .env
+vim .env
+vim django-service/xira/config/settings.py
+vim .env
+docker-compose restart xira-api-service
+vim django-service/xira/config/settings.py
+vim .env
+docker-compose restartcompose
+docker-compose -f compose-dev.yml restart xira-api-service
+vim .env
+vim django-service/xira/config/settings.py
+vim .env
+docker-compose -f compose-dev.yml restart
+vim .env
+vim compose-dev.yml
+cat .env| grep GOOGLE
+gs
+gd
+gs
+gd
+gca
+gs
+dsh api
+dsh db
+docker db-service
+dsh db-service
+dsh api
+dsh api
+dsh api
+cd misc
+vim commands/commands.txt
+trans :ru overlap
+trans :ru distinciton
+trans :ru distinction
+ssh aliaksandr.manko@bastion.dev.xiralaw.com
+ssh aliaksandr.manko@bastion.stage.xiralaw.com
+vim .ssh/config
+cd .ssh
+ls
+vim config
+ssh aliaksandr.manko@bastion.stage.xiralaw.com
+cd projects/xira/xira-backend
+dattach api
+dattach api
+docker ps -a
+docker-compose restart xira-api-service
+dattach api-
+cd projects/xira/xira-frontend
+git stash
+gpl origin dev
+ls
+git stash pop
+gs
+cd misc
+ls
+cd badger-docrouter
+grep -rli calendar
+chmod 644 *
+grep -rli calendar
+ls -al
+find . -type d -exec chmod 644 {} \;\
+;\
+
+chmod 644 .
+find ./* -type d -exec chmod 644 {} \;
+find . -type d -exec chmod 644 {} \;
+chmod -R 644 *
+chmod -R 644 ./*
+cd ..
+chmod -R 644 badger-docrouter
+chmod -R +xr badger-docrouter
+cd badger-docrouter
+ls
+ls -al
+grep -rli calendar
+vim requirements.txt
+grep -rli notes
+vim customers/models.py
+vim drupe/models.py
+cd misc
+cd litigatimax
+cd udgenerator
+grep -rl calendar
+vim apps/casedb/models.py
+grep -rli calendar
+cd 
+cd projects
+git clone https://github.com/llazzaro/django-scheduler.git
+source /usr/bin/virtualenvwrapper.sh
+mkvirtualenv django-scheduler
+cd django-scheduler
+ls
+cd ..
+git clone https://github.com/llazzaro/django-scheduler-sample.git
+cd django-scheduler-sample
+pip install -r requirements.txt
+export DJANGO_SETTINGS_MODULE=project_sample.settings
+python manage.py bower install
+python manage.py bower_install
+npm install bower
+python manage.py bower install
+ls
+ls node_modules
+./node_modules/bower/bin/bower install
+npm -g bower
+npm install -g bower
+sudo npm install -g bower
+python manage.py bower install
+python manage.py migrate
+python manage.py collectstatic
+python manage.py runserver 9000
+cd Downloads
+mv xira2.mp4 xira2.MP4
+cd projects/xira/xira-frontend
+gs
+git stash
+gpl origin dev
+git stash pop
+npm i
+npm run start
+npm i
+npm run start
+npm run start
+cd projects/django-scheduler-sample
+vim ~/.profile
+vim ~/.xprofile
+source /usr/bin/virtualenvwrapper.sh
+workon django-scheduler
+python manage.py load_sample_data
+ls
+ls project_sample/assets/fullcalendar/
+bower install
+sdn
+cd projects/xira/xira-backend
+docker-compose -f compose-dev.yml up -d
+gs
+gpl origin develop
+gs
+gf
+gc 2-fix-extension-check
+gs
+gd
+gd
+gd
+gacm "fix"
+gpo 2-fix-extension-check
+gc develop
+gc 2-fix-extension-check
+gs
+gs
+gm refactoring/add_tests
+gs
+gd
+git diff django-service/xira/apps/users/
+ga django-service/xira/apps/users/
+gs
+gd
+gcm "adding according to review"
+gpo
+gl
+git rebase -i HEAD-2
+git rebase -i HEAD~2
+gs
+git stash
+gs
+git rebase -i HEAD~2
+gl
+gd origin/develop
+gl
+gd origin/develop
+gpo 2-fix-extension-check
+gs
+gc refactoring/add_tests
+gs
+git stash
+git stash pop
+gd
+gd
+gs
+gd
+gacm "add introduction video test CamelCase extension and content type"
+gd
+gs
+git diff
+gl
+gs
+git diff
+git diff origin/develop
+gpl origin/develop
+gpl origin/develop
+gpl origin develop
+git diff origin/develop
+gpo
+gpo refactoring/add_tests
+ls
+vim django-service/Dockerfile
+gs
+gc develop
+gpl origin develop
+ls
+cd django-service
+ls
+cd xira
+ls
+cp ~/fixture.json .
+ls
+gs
+vim fixture.json
+rm fixture.json
+ls
+ls ~/
+ls ~
+cp ~/Downloads/fixture_stage_apps_21022020.json .
+dsh apo
+dsh api
+dsh api
+man cp
+pkill umount
+sudo !
+sudo pkill umount
+lsblk
+cd misc
+ls
+ls
+cd
+ls
+cd projects
+ls
+mv pytest_samples ../misc
+cd ../misc/pytest_samples
+ls
+vim test_apps
+ls
+vim helpers.py
+vim test_libs
+grep -rl client
+vim test_libs/tests_users_synchronizer/conftest.py
+vim test_libs/tests_users_synchronizer/test_synchronizer.py
+cd projects/xira/xira-frontend
+git stash
+gpl origin dev
+npm i
+cd ../xira-backend
+gs
+gd
+gca
+gpl origin develop
+gc refactoring/add_tests
+gpl origin refactoring/add_tests
+docker-compose -f compose-dev.yml up -d
+gpl origin develop
+gs
+vim django-service/requirements_dev.txt
+gs
+gd
+gd
+gacm "add factories"
+gs
+gpo refactoring/add_tests
+cd
+lsblk
+sudo mount /dev/sda1 flash
+ls
+ls flash
+cp -a projects/xira flash/.
+ls flash/xira
+ls flash/xira/xira-backend
+cd flash/xira/xira-backend
+ls
+gs
+gd
+git reset --soft origin/refactoring/add_tests
+gs
+gca
+gs
+lsblk
+sudo umount /dev/sda1
+ls
+cd 
+sudo umount /dev/sda1
+sdn
+trans :ru revoke
+trans :ru participants
+trans :ru "Inspects calendars to determine the common availablity for people within the specified periods of time"
+ping vk.com
+gpl origin master
+gs
+gd
+gca
+gpl origin master
+gs
+gpl origin master
+rm .config/zsh/.history .config/zsh/.zcompdump
+gpl origin master
+cd new_dotfiles/voidrice
+gpl luke master
+cd
+dsh api
+cd projects/xira
+ls
+cd xira-backend
+docker-compose -f compose-dev.yml up -d
+gs
+gd
+gs
+gd
+git diff
+gacm "add some factories"
+gpo refactoring/add_tests
+dsh api
+sdn
+vim .Xresources
+cd new_dotfiles/voidrice
+ls
+gs
+gpl luke master
+sdn
+ls
+ls
+ls
+ls Downloads
+cd Downloads
+ls
+cp Ѓ�рабер\ Ѓ�артин\ -\ SQL\ длу�\ просту�у�\ смертну�у�\ *pdf ~/flash/documents/.
+sudo cp Ѓ�рабер\ Ѓ�артин\ -\ SQL\ длу�\ просту�у�\ смертну�у�\ *pdf ~/flash/documents/.
+lsblk
+sudo mount /dev/sdc1 flash
+ls flash
+cd flash/documents
+ls
+ls
+ls Tech
+ls Tech/IT
+ls
+ls
+cd Downloads
+ls
+ls | grep {pdf, djvu}
+ls | grep pdf
+rm 200107\ Ѓ�лу�у�овик\ Ѓ�икита-\ Innowise,\ предложение\ о\ работе.pdf
+cp Daniel\ Greenfeld\ -\ Two\ Scoops\ of\ Django\ 1.11\ -\ 2017.pdf ../flash/documents/.
+sudo cp Daniel\ Greenfeld\ -\ Two\ Scoops\ of\ Django\ 1.11\ -\ 2017.pdf ../flash/documents/.
+ls
+rm Ѓ�икита\ offer.doc
+rm Ѓ�икита\ offer.pdf
+ls Ѓ�иу�ну�й\ листок*
+rm Ѓ�иу�ну�й\ листок*
+ls
+rm *fb2
+rm Job\ Offer\ for\ Software\ Engineer\ Nikita\ Alkhovik\ \(BY,\ Minsk\).*
+rm JOB\ OFFER\ Nikita\ Al\`hovik.docx
+ls
+rm Ѓ�втобиограу�иу�*
+rm tasks.txt
+ls
+cp gobook.pdf golang-for-python-programmers.pdf Go_Na_Praktike_2017_Mett_Batcher_Mett_Farina.pdf ../flash/documents
+sudo cp gobook.pdf golang-for-python-programmers.pdf Go_Na_Praktike_2017_Mett_Batcher_Mett_Farina.pdf ../flash/documents
+ls
+rm repository.*
+rm recalbox-rpi2.img.xz
+ls
+rm Job\ offer_Nikita\ Alkhovik.
+rm Job\ offer_Nikita\ Alkhovik.*
+ls
+rm English_File_3e_-_Intermediate_*
+ls
+rm model_09-attr_3.8462.hdf5
+rm archlinux-20*
+ls
+rm e257597e-8ca8-11e3-bf6e-f6d299da70eeNew_English_File_Intermediate_-_Student__s_Book\(1\).pdf
+rm 1dronov_vladimir_django_praktika_sozdaniya_web_saytov_na_pyth.pdf
+ls
+rm girl.torrent
+ranger
+ls
+cd ..
+ls
+rm 200107\ Ѓ�лу�у�овик\ Ѓ�икита-\ Innowise,\ предложение\ о\ работе.docx
+rm asdf.csv
+ls
+cd projects/chainartsoft/Downloads
+ls
+cd Швеу�\ Ѓ�.\ Ѓ�огру�жение\ в\ паттерну�\ проектированиу�\ \(2018\)
+ду�
+ls
+cp *.mobi ~/flash/documents/.
+sudo cp *.mobi ~/flash/documents/.
+cd ../../
+ls
+cd Downloads
+ls
+ls -al
+sudo cp Antonio_Mele_Django_2_by_Example_2016.pdf ~/flash/documents
+ls
+sudo cp django-orm-cookbook.pdf ~/flash/documents
+cd ~/Downloads
+ls
+transmission-cli Ѓ�рабер\ Ѓ�артин\ -\ SQL\ длу�\ просту�у�\ смертну�у�\ \[2014,\ PDF,\ RUS\]\ \[rutracker-5198582\].torrent ../grubber.pdf
+sdn
+D
+mv Ѓ�олноу�у�\ в\ Ѓ�ариже\ Midnight\ in\ Paris\ \(Ѓ�у�ди\ Ѓ�ллен\ Woody\ Allen\)\ \[2011,\ Ѓ�ШЃ�,\ Фу�нтези,\ мелодрама,\ комедиу�,\ BDRip\]\ Dub\ +\ AVO\ \(Ѓ�ербин\)\ \[rutracker-5239842\].torrent midnight.torrent
+history | grep scp
+history | grep sftp
+sftp root@192.168.100.9
+D
+mv Ѓ�олноу�у�\ в\ Ѓ�ариже\ Midnight\ in\ Paris\ \(Ѓ�у�ди\ Ѓ�ллен\ Woody\ Allen\)\ \[2011,\ Ѓ�ШЃ�,\ Ѓ�спаниу�,\ у�у�нтези,\ мелодрама,\ комедиу�,\ BDRip-AVC\]\ Dub\ +\ \[rutracker-5090424\].torrent mid.torrent
+sftp root@192.168.100.9
+D
+sftp root@192.168.100.9
+D
+mv Ѓ�нгел\ истреблениу�\ Ѓ�нгел-истребителу�\ El\ angel\ exterminador\ The\ Exterminating\ Angel\ \(Ѓ�у�ис\ Ѓ�у�ну�у�лу�\ Luis\ Bunuel\)\ \[1962,\ Ѓ�ексик\ \[rutracker-4011819\].torrent angel.torrent
+sftp root@192.168.100.9
+ssh aliaksandr.manko@bastion.stage.xiralaw.com
+ssh root@192.168.100.9
+sdn
+gpl origin master
+gs
+gd
+gd .Xresources
+git stash .Xresources
+git stash
+gs
+gpl origin master
+git stash pop
+gs
+vim y
+vim y.pub
+ls .ssh
+ls
+rm y y.pub
+vim touch.txt
+rm bookmarks.html
+vim .xprofile
+vim .profile
+vim .profile
+i3-msg restart
+sdn
+gs
+gd .profile
+ga .profile
+gs
+
+gs
+gd .profile
+ga .profile
+gs
+
+neofetch
+
+
