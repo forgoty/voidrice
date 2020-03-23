@@ -6,6 +6,7 @@
 
 !! Emacs support
 Emacs.font: Hack
+Emacs.alpha: 100
 
 !! Scaling i3 on high-resolution screens
 Xft.dpi: 120
