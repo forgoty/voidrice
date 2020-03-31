@@ -51,12 +51,13 @@ alias \
 	ga="git add" \
 	gca="git checkout -- ." \
 	gp="git push" \
-	gr="git rm" \
+	grm="git rm" \
 	gb='git for-each-ref --sort=-committerdate refs/heads/ --format="%(authordate:short) %(color:red)%(objectname:short) %(color:yellow)%(refname:short)%(color:reset) (%(color:green)%(committerdate:relative)%(color:reset))"' \
 	gf='git fetch' \
 	gpo="git push origin" \
 	gst="git stash" \
 	gstp="git stash pop" \
+	grs="git restore --staged ." \
 	gl="git log" \
 	gm="git merge" \
 	gpl="git pull" \
