@@ -40,7 +40,6 @@ signal=5
 
 [memory]
 interval=30
-label=🧠
 
 #[cpu]
 #interval=15
