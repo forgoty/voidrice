@@ -2,4 +2,4 @@
 
 # Shortcut to attach docker container to tty
 
-docker exec -u0 -it $(docker ps -a | grep $1 | awk '{print $1}') /bin/sh
+docker exec -u0 -it $(docker ps -a | grep $1 | awk '{print $1}') /bin/bash
