@@ -67,5 +67,5 @@ interval=30
 [internet]
 interval=10
 
-#[help]
-#interval=once
+# [help-icon]
+# interval=once
