@@ -11,7 +11,7 @@ export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$
 # Default programs:
 export EDITOR="nvim"
 export TERMINAL="st"
-export BROWSER="brave"
+export BROWSER="chromium"
 export READER="zathura"
 
 # ~/ Clean-up:
@@ -114,6 +114,9 @@ ex=🎯:\
 *.part=💔:\
 *.torrent=🔽:\
 "
+
+# Set LC_ALL to en_US.utf-8
+export LC_ALL="en_US.UTF-8"
 
 [ ! -f ${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc ] && shortcuts >/dev/null 2>&1 &
 
