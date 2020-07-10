@@ -1,15 +1,15 @@
 !! Transparency (0-1):
-*.alpha: 0.8
+!! *.alpha: 0.8
 
 !! Set a default font and font size as below:
-*.font: UbuntuMono-15;
+!! *.font: UbuntuMono-15;
 
 !! Emacs support
 Emacs.font: Hack
-Emacs.alpha: 100
 
-!! Scaling i3 on high-resolution screens
-Xft.dpi: 120
+!! st scaling
+st.font: UbuntuMono-20;
+st.alpha: 0.8
 
 /* name		dark	light */
 /* black	0	8 */
