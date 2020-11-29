@@ -56,11 +56,13 @@ alias \
 	gpo="git push origin HEAD" \
 	gst="git stash" \
 	gstp="git stash pop" \
-	grs="git restore --staged ." \
+	grs="git restore --staged" \
+	grsa="git restore --staged ." \
 	gl="git log" \
 	gm="git merge" \
 	gpl="git pull" \
 	gacm="git add -u && git commit -m" \
 	xo="xdg-open" \
 	history="history 1" \
-	xclip="xclip -selection clipboard"
+	xclip="xclip -selection clipboard" \
+	dcs="docker-compose" \
