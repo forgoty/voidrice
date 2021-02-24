@@ -12,3 +12,5 @@
 
 [alias]
 	skipped = !git ls-files -v | grep --color "^S"
+[credential]
+	helper = cache --timeout=3600
