@@ -30,6 +30,15 @@ cmd open ${{
 
 cmd mkdir $mkdir -p "$(echo $* | tr ' ' '\ ')"
 
+cmd extract ${{
+	clear; tput cup $(($(tput lines)/3)); tput bold
+	set -f
+	printf "%s\n\t" "$fx"
+	printf "extract?[y/N]"
+	read ans
+	[ $ans = "y" ] && ext $fx
+}}
+
 cmd delete ${{
 	clear; tput cup $(($(tput lines)/3)); tput bold
 	set -f
@@ -70,10 +79,12 @@ map J $lf -remote "send $id cd $(cut -d'	' -f2 ${XDG_CONFIG_HOME:-$HOME/.config}
 map gh
 map g top
 map D delete
+map E extract
 map C copyto
 map M moveto
 map <c-n> push :mkdir<space>
 map <c-r> reload
+map <c-s> set hidden!
 map <enter> shell
 map x $$f
 map X !$f
@@ -91,3 +102,6 @@ map b $setbg $f
 map <c-e> down
 map <c-y> up
 map V push :!nvim<space>
+
+# Source Bookmarks
+source "~/.config/lf/shortcutrc"
