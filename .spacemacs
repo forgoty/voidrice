@@ -559,11 +559,7 @@ before packages are loaded."
     :hook (go-mode . flycheck-golangci-lint-setup))
   (use-package lsp-mode
     :ensure t
-    :hook (go-mode . lsp-deferred)
-    :hook (python-mode . (lambda ()
-                           (lsp-deferred)
-                           (flycheck-add-next-checker 'lsp 'python-flake8)
-                           )))
+    :hook (go-mode . lsp-deferred))
   )
 
 
