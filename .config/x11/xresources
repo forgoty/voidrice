@@ -9,7 +9,7 @@ Emacs.font: Hack
 
 !! st scaling
 st.font: UbuntuMono-20;
-st.alpha: 0.8
+st.alpha: 0.9
 
 /* name		dark	light */
 /* black	0	8 */

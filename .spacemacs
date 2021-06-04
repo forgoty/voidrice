@@ -74,6 +74,7 @@ This function should only modify configuration layer settings."
      (shell :variables
             shell-default-height 15
             shell-default-position 'bottom)
+     (treemacs :variables treemacs-use-follow-mode -1)
      )
 
    ;; List of additional packages that will be installed without being wrapped
