@@ -49,8 +49,8 @@ alias \
 	gc="git checkout" \
 	gcm="git commit -m" \
 	gs="git status" \
-	gd="git diff" \
-	gds="git diff --staged" \
+	gd="ydiff -s -w 0 --wrap" \
+	gds="ydiff -s -w 0 --wrap --cached" \
 	gaa="git add -u" \
 	ga="git add" \
 	gca="git checkout -- ." \
@@ -71,3 +71,5 @@ alias \
 	history="history 1" \
 	xclip="xclip -selection clipboard" \
 	dcs="docker-compose" \
+	lvpn="cat ~/Downloads/leverxvpn/auth.cfg | tail +2 | xclip" \
+	svim="goneovim -u ~/.config/SpaceVim.d/SpaceVim/init.vim" \

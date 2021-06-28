@@ -33,7 +33,6 @@ This function should only modify configuration layer settings."
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
    '(sql
-     rust
      nginx
      protobuf
      yaml
@@ -44,18 +43,11 @@ This function should only modify configuration layer settings."
      ;; ----------------------------------------------------------------
      helm
      auto-completion
-     (auto-completion :variables
-                      auto-completion-return-key-behavior 'complete
-                      auto-completion-tab-key-behavior 'cycle
-                      auto-completion-complete-with-key-sequence nil
-                      auto-completion-complete-with-key-sequence-delay 0.1
-                      auto-completion-private-snippets-directory nil
-                      auto-completion-enable-snippets-in-popup t)     ;; better-defaults
      emacs-lisp
-     go
      lsp
+     go
      (go :variables
-         go-backend 'lsp
+         go-backend `lsp
          go-format-before-save t
          go-use-golangci-lint t
          )
@@ -64,10 +56,9 @@ This function should only modify configuration layer settings."
      html
      python
      (python :variables
-             python-backend 'lsp
-         )
-     javascript
-     react
+             python-backend 'anaconda
+             )
+     json
      syntax-checking
      themes-megapack
      shell
@@ -554,13 +545,10 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
-  (setq lsp-diagnostic-package :none)
+  (setq flycheck-check-syntax-automatically '(mode-enabled save))
   (use-package flycheck-golangci-lint
     :ensure t
     :hook (go-mode . flycheck-golangci-lint-setup))
-  (use-package lsp-mode
-    :ensure t
-    :hook (go-mode . lsp-deferred))
   )
 
 
