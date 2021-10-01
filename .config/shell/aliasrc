@@ -72,6 +72,6 @@ alias \
 	xo="xdg-open" \
 	history="history 1" \
 	xclip="xclip -selection clipboard" \
-	dcs="docker-compose" \
+	dcs="docker compose" \
 	lvpn="cat ~/Downloads/leverxvpn/auth.cfg | tail +2 | xclip" \
 	svim="goneovim -u ~/.config/SpaceVim.d/SpaceVim/init.vim" \
