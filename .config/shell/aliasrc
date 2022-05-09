@@ -68,6 +68,7 @@ alias \
 	gl="git log" \
 	gm="git merge" \
 	gpl="git pull" \
+	gplr="git pull --rebase" \
 	gacm="git add -u && git commit -m" \
 	xo="xdg-open" \
 	history="history 1" \
