@@ -39,7 +39,11 @@ This function should only modify configuration layer settings."
      yaml
      typescript
      (typescript :variables
+         typescript-backend 'lsp
          typescript-indent-level 2
+         typescript-fmt-tool 'prettier
+         typescript-fmt-on-save t
+         typescript-linter 'tslint
          )
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
