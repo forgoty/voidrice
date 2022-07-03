@@ -36,6 +36,7 @@ This function should only modify configuration layer settings."
      sql
      nginx
      protobuf
+     docker
      yaml
      typescript
      (typescript :variables
@@ -43,7 +44,6 @@ This function should only modify configuration layer settings."
          typescript-indent-level 2
          typescript-fmt-tool 'prettier
          typescript-fmt-on-save t
-         typescript-linter 'tslint
          )
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
