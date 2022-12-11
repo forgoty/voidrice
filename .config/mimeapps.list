@@ -25,7 +25,7 @@ application/xhtml+xml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
 x-scheme-handler/msteams=teams.desktop
-x-scheme-handler/tg=userapp-Telegram Desktop-72WR50.desktop
+x-scheme-handler/tg=org.telegram.desktop.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;
@@ -39,4 +39,4 @@ application/x-extension-shtml=firefox.desktop;
 application/xhtml+xml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
-x-scheme-handler/tg=userapp-Telegram Desktop-72WR50.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-72WR50.desktop;org.telegram.desktop.desktop;
