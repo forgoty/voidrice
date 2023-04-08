@@ -1,1 +1,1 @@
-.config/spacemacs.d
+.config/crafted-emacs

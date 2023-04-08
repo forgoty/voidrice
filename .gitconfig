@@ -14,6 +14,7 @@
 	skipped = !git ls-files -v | grep --color "^S"
 	skip = !git ls-files -z $1 | xargs -0 git update-index --skip-worktree
 	unskip = !git ls-files -z $1 | xargs -0 git update-index --no-skip-worktree
+	compare = log --left-right --graph --cherry-pick --oneline
 
 [credential]
 	helper = cache --timeout=3600
