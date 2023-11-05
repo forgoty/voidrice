@@ -59,7 +59,7 @@ alias \
 alias \
 	mkcd='_(){ mkdir -p $1; cd $1; }; _' \
 	gc="git checkout" \
-	gcm="git commit -m" \
+	gcm="git commit" \
 	gs="git status" \
 	gd="ydiff -s -w 0 --wrap" \
 	gds="ydiff -s -w 0 --wrap --cached" \
