@@ -1,3 +1,5 @@
 https://dev.by/rss "Dev.by"
 https://github.com/LukeSmithxyz/voidrice/commits/master.atom "~LARBS dotfiles"
+https://videos.lukesmith.xyz/feeds/videos.xml?sort=-publishedAt&isLocal=true
 https://github.com/SystemCrafters/crafted-emacs/commits/master.atom "~Crafted emacs"
+https://go.dev/blog/feed.atom "~go.dev blog"
