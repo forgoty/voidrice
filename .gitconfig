@@ -1,11 +1,19 @@
 [user]
 	name = forgoty
 	email = forgoty13@gmail.com
+
+[core]
+	pager = delta
+
+[interactive]
+	diffFilter = delta --color-only
+
 [mergetool.ediff]
-    cmd = emacs --eval \" (progn (defun ediff-write-merge-buffer () (let ((file ediff-merge-store-file)) (set-buffer ediff-buffer-C) (write-region (point-min) (point-max) file) (message \\\"Merge buffer saved in: %s\\\" file) (set-buffer-modified-p nil) (sit-for 1))) (setq ediff-quit-hook 'kill-emacs ediff-quit-merge-hook 'ediff-write-merge-buffer) (ediff-merge-files-with-ancestor \\\"$LOCAL\\\" \\\"$REMOTE\\\" \\\"$BASE\\\" nil \\\"$MERGED\\\"))\"
+	cmd = emacs --eval \" (progn (defun ediff-write-merge-buffer () (let ((file ediff-merge-store-file)) (set-buffer ediff-buffer-C) (write-region (point-min) (point-max) file) (message \\\"Merge buffer saved in: %s\\\" file) (set-buffer-modified-p nil) (sit-for 1))) (setq ediff-quit-hook 'kill-emacs ediff-quit-merge-hook 'ediff-write-merge-buffer) (ediff-merge-files-with-ancestor \\\"$LOCAL\\\" \\\"$REMOTE\\\" \\\"$BASE\\\" nil \\\"$MERGED\\\"))\"
 
 [merge]
 	tool = ediff
+	conflictstyle = diff3
 
 [pull]
 	rebase = false
@@ -18,3 +26,23 @@
 
 [credential]
 	helper = cache --timeout=3600
+
+[delta]
+	true-color = always
+	line-numbers = true
+	navigate = true    # use n and N to move between diff sections
+	font-size = 12
+
+[diff]
+	colorMoved = default
+	algorithm = histogram
+	context = 7
+
+[transfer]
+	fsckobjects = true
+
+[fetch]
+	fsckobjects = true
+
+[receive]
+	fsckObjects = true

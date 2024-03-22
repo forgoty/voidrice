@@ -56,13 +56,14 @@ alias \
 	weath="less -S ${XDG_CACHE_HOME:-$HOME/.cache}/weatherreport" \
 
 # Nikitas aliases
+
 alias \
 	mkcd='_(){ mkdir -p $1; cd $1; }; _' \
 	gc="git checkout" \
 	gcm="git commit" \
 	gs="git status" \
-	gd="ydiff -s -w 0 --wrap" \
-	gds="ydiff -s -w 0 --wrap --cached" \
+	gd="DELTA_FEATURES=+side-by-side git diff" \
+	gds="DELTA_FEATURES=+side-by-side git diff --cached" \
 	gaa="git add -u" \
 	ga="git add" \
 	gca="git checkout -- ." \
@@ -84,5 +85,3 @@ alias \
 	history="history 1" \
 	xclip="xclip -selection clipboard" \
 	dcs="docker compose" \
-	lvpn="cat ~/Downloads/leverxvpn/auth.cfg | tail +2 | xclip" \
-	svim="goneovim -u ~/.config/SpaceVim.d/SpaceVim/init.vim" \
