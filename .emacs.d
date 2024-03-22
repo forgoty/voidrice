@@ -1,1 +1,1 @@
-.config/crafted-emacs
+.config/emacs-conf
