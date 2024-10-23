@@ -1,6 +1,11 @@
 #!/usr/bin/env sh
 
-# Shortcut to attach docker container to tty
+# Execute the shell of running container which selected by name.
+# Can provide custom USER_ID. Propagate to /bin/sh when /bin/bash isn't found.
 
-docker exec -u ${UID} -it $(docker ps | grep $1 | awk '{print $1}') /bin/bash ||
-docker exec -u ${UID} -it $(docker ps | grep $1 | awk '{print $1}') /bin/sh
+USER_ID=${USER_ID:-$UID}
+
+CONTAINER_ID=$(docker ps --format "{{.ID}} {{.Names}}" | grep "$1" | cut -d ' ' -f 1)
+
+docker exec -u ${USER_ID} -it ${CONTAINER_ID} /bin/bash ||
+docker exec -u ${USER_ID} -it ${CONTAINER_ID} /bin/sh
