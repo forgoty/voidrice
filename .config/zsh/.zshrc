@@ -7,12 +7,6 @@ setopt autocd		# Automatically cd into typed directory.
 stty stop undef		# Disable ctrl-s to freeze terminal.
 setopt interactive_comments
 
-# History in cache directory:
-HISTSIZE=10000000
-SAVEHIST=10000000
-HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/history"
-setopt inc_append_history
-
 # Load aliases and shortcuts if existent.
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc"
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutenvrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutenvrc"
@@ -29,11 +23,6 @@ _comp_options+=(globdots)		# Include hidden files.
 # vi mode
 bindkey -v
 export KEYTIMEOUT=1
-
-# History
-HISTSIZE=10000
-SAVEHIST=10000
-HISTFILE=$ZDOTDIR/.history
 
 # Use vim keys in tab complete menu:
 bindkey -M menuselect 'h' vi-backward-char
@@ -82,6 +71,36 @@ bindkey '^e' edit-command-line
 bindkey -M vicmd '^[[P' vi-delete-char
 bindkey -M vicmd '^e' edit-command-line
 bindkey -M visual '^[[P' vi-delete
+
+# History
+HISTSIZE=10000000
+SAVEHIST=10000000
+HISTFILE=$ZDOTDIR/.history
+setopt append_history # Allows new commands to be appended to the history file, instead of overwriting it.
+setopt inc_append_history # each command is added to the history file immediately after it's executed, not just when the session ends.
+setopt share_history # synchronizes the command history between multiple zsh sessions. Commands entered in one session will be available in others.
+setopt hist_ignore_dups # Prevents consecutive duplicates from being saved in the command history.
+setopt hist_ignore_all_dups # Ignores all duplicate entries in the history, not just consecutive ones.
+setopt hist_expire_dups_first #  When the history file reaches its size limit, remove older duplicate entries before removing unique commands.
+setopt hist_find_no_dups  # When searching through history, prevent showing duplicate entries.
+setopt hist_save_no_dups # When saving the history, omit duplicate entries, so only unique commands are saved.
+setopt hist_reduce_blanks # Removes extra blanks from each command line being added to the history.
+setopt hist_verify # After a history expansion (like using ! commands), this option prompts for verification before executing the command.
+
+fzf-history-widget-with-date() {
+  initial_query="$LBUFFER"
+  setopt noglobsubst noposixbuiltins pipefail 2>/dev/null
+  entry=$(fc -lir 1 |
+          sed -E 's/^[[:space:]+[0-9]+\*?[[:space:]]+//' |
+          awk '{cmd=$0; $1=$2=$3=""; sub(/^[ \t]+/, ""); if (!seen[$0]++) print cmd}' |
+          fzf --query="$initial_query" +s -i -e)
+  [ -n "$entry" ] && LBUFFER=${entry#* * * }
+  zle redisplay
+}
+
+zle -N fzf-history-widget-with-date
+bindkey '^R' fzf-history-widget-with-date
+
 
 # Load syntax highlighting; should be last.
 source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
