@@ -3,7 +3,7 @@
 # Enable colors and change prompt:
 autoload -U colors && colors	# Load colors
 NEWLINE=$'\n'
-PROMPT="%B%{$fg[magenta]%}%~%{$fg[white]%}:${NEWLINE}%{$fg[white]%}> %{$reset_color%}%b"
+PROMPT="%B%{$fg[magenta]%}%~%{$fg[white]%}:%{$fg[black]%}%?${NEWLINE}%{$fg[white]%}> %{$reset_color%}%b"
 setopt autocd		# Automatically cd into typed directory.
 stty stop undef		# Disable ctrl-s to freeze terminal.
 setopt interactive_comments
