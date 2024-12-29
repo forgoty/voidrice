@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+emacsclient -nc --eval "(progn (org-agenda nil \"c\") (switch-to-buffer \"*Org Agenda*\") (delete-other-windows))"
