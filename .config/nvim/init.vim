@@ -21,8 +21,6 @@ Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
 call plug#end()
 
-colorscheme vim
-
 set title
 set bg=light
 set go=a
@@ -33,7 +31,6 @@ set noshowmode
 set noruler
 set laststatus=0
 set noshowcmd
-colorscheme vim
 
 " Some basics:
 	nnoremap c "_c

@@ -102,6 +102,5 @@ fzf-history-widget-with-date() {
 zle -N fzf-history-widget-with-date
 bindkey '^R' fzf-history-widget-with-date
 
-
 # Load syntax highlighting; should be last.
-source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
+source $ZSH_PLUGIN_PATH/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null

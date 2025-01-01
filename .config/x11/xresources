@@ -5,11 +5,13 @@
 !! *.font: UbuntuMono-15;
 
 !! Emacs support
-Emacs.font: Hack
+Emacs.font: Mono
 
-!! st scaling
-st.font: UbuntuMono-20;
+!! custom scaling
+st.font: Mono-14
 st.alpha: 0.9
+dmenu.font: Mono-14
+dwmblocks.font: Mono-14
 
 /* name		dark	light */
 /* black	0	8 */
