@@ -14,9 +14,13 @@ setopt interactive_comments
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc"
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc"
 
+# Additional functions
+fpath=("$ZSH_DIR/site-functions" $fpath)
+
 # Basic auto/tab complete:
-autoload -U compinit
+autoload -Uz compinit
 zstyle ':completion:*' menu select
+zstyle ':completion:*:*:git:*' script "$HOME/.guix-home/profile/etc/bash_completion.d/git"
 zmodload zsh/complist
 compinit
 _comp_options+=(globdots)		# Include hidden files.
@@ -103,4 +107,4 @@ zle -N fzf-history-widget-with-date
 bindkey '^R' fzf-history-widget-with-date
 
 # Load syntax highlighting; should be last.
-source $ZSH_PLUGIN_PATH/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+source $ZSH_DIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
