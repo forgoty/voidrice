@@ -13,16 +13,11 @@ for command in mount umount sv pacman updatedb su shutdown poweroff reboot ; do
 	alias $command="sudo $command"
 done; unset command
 
-se() {
-	choice="$(find ~/.local/bin -mindepth 1 -printf '%P\n' | fzf)"
-	[ -f "$HOME/.local/bin/$choice" ] && $EDITOR "$HOME/.local/bin/$choice"
-	}
-
 # Verbosity and settings that you pretty much just always are going to want.
 alias \
-	cp="cp -riv" \
+	cp="cp -iv" \
 	mv="mv -iv" \
-	rm="rm -rvI" \
+	rm="rm -vI" \
 	bc="bc -ql" \
 	rsync="rsync -vrPlu" \
 	mkdir="mkdir -pv" \
@@ -50,7 +45,7 @@ alias \
 	lf="lfub" \
 	weath="less -S ${XDG_CACHE_HOME:-$HOME/.cache}/weatherreport" \
 
-# Nikitas aliases
+# forgoty aliases
 
 alias \
 	mkcd='_(){ mkdir -p $1; cd $1; }; _' \
