@@ -1,0 +1,7 @@
+[Unit]
+Description=User-level git-sync: check and sync
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/nikita/cerebrum
+ExecStart=/bin/sh -c '/usr/bin/git-sync check && /usr/bin/git-sync sync'
